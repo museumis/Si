@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>Java</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Ismael Martín Ramírez" />
+
+        <!--    <base href = "http://www.lmsgi.iesvjp.es/~imartinr/CSS/" target = "vtr" />   -->
+
+        <link href="css/estilo.css" rel="stylesheet" type="text/css" title="Estilo Articulos" media="all"/>
+        <link href="css/estiloJava.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <header>
+            <a title="logo" href="index.html"><h1>Inicio</h1></a>
+            <a title="Sobre mi..." href="sobreMi.html" ><h2 id="sobreMi">Sobre mi</h2></a>
+            <h2 title="Mis proyectos" id="proyectos">Proyectos</h2>
+
+            <h2 title="otros" id="otro">oculto</h2>
+        </header>
+
+        <div id="cuerpo">
+
+            <section id="listadoIzquierda">
+                <ul>
+                    <li>
+                        <h4 id="clickCondicional">Condicionales</h4></li>
+
+                    <li><h5>algo</h5></li>
+                    <li><h5>algo</h5></li>
+                    <li><h5>algo</h5></li>
+                    <li><h5>algo</h5></li>
+
+
+                    <li><h4>Array</h4></li>
+
+                    <li><h5>algo</h5></li>
+                    <li><h5>algo</h5></li>
+                    <li><h5>algo</h5></li>
+                    <li><h5>algo</h5></li>
+
+
+                    <li><h4>Array</h4></li>
+                    <li><h4>Array</h4></li>
+                </ul>            
+            </section>  
+                        <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="duke">
+                <img src="imagenes/duke.gif" alt=""/>
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <!--            <article class="articulo">
+                            <h5><strong>Titulo</strong></h5>
+                            <time>2008-02-14 20:00</time>
+                            <p>
+                                Documento plantilla para mostrar un proyecto
+                            </p>
+                            <pre>
+                            <code>
+             Código del programa
+            
+                            </code>
+            
+                            </pre>
+            
+                            <p>   
+                                Explicación:<br />
+                                <var>VARIABLEE</var>
+            
+                                quis nostrud exercitatio ex ea commodo consequat. Duis aute irure <var>VARIABLEE</var> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <pre>
+                            <samp>
+                               
+                                SALIDA DEL PROGRAMA
+            
+            
+            
+                                Explicación:<br />
+                                <var>VARIABLEE</var>
+            
+                              
+              quis nostrud exercitatio ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                      </samp> </pre>   
+            
+                            <p>
+                                Explicacion final
+                            </p>
+                            <footer>by Ismael Martin (github)</footer>
+            
+                        </article>-->
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="arIf">
+                <h5><strong>¿Par o impar?</strong></h5>
+                <time>2017-07-14  13:00</time>
+                <p>
+                    Algoritmo que nos muestra si un número es par o impar.
+                </p>
+
+                <pre>   <code>
+import java.util.Scanner;
+
+public class parImpar {
+    public static int pedirNumero(String texto) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.print(texto);
+        return entrada.nextInt();
+        }
+
+    public static void main(String[] args) {
+        System.out.println("¿Par o impar?");
+        if (pedirNumero("Introduce un numero: ") % 2 == 0) {
+            System.out.println("Número par.");
+        } else {
+            System.out.println("Número impar.");
+        }
+    }
+}
+                </code> </pre> 
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre> 
+                    ¿Par o impar?
+                    Introduce un numero: 1
+                    Número impar.
+                    </code> </pre> 
+                        
+                            <code> <pre> 
+                    ¿Par o impar?
+                    Introduce un numero: 2
+                    Número par.
+                    </code> </pre> 
+                </samp> 
+
+                <p>Obteniendo el resto de una división mediante el signo <var>%</var> y sometiendo el resultado a un condicional <var>If</var> y <var>else</var> obtenemos si el número es par o impar.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+            <section id="listadoDerecha">
+                <ul>
+                    <a href="java.html"><li id="clikJava"><h3>Java</h3></li></a>
+                    <li><h3>Web</h3></li>                 
+                    <li><h3>SQL</h3></li>
+
+
+                </ul>            
+            </section>
+
+        </div>
+
+        <footer>
+            <address title="Contacto" id="contacto">
+                Ismael Martín <br />
+                Desarrollador de Apps Multiplataforma<br />
+                <a href="mailto:imartinr01@informatica.iesvalledeljerteplasencia.es" title="Correo del creador de la página.">Enviame un correo</a>
+            </address>
+        </footer>        
+        <script src="js/navegacionIndex.js" type="text/javascript" title="Estilo Index"></script>
+        <script src="js/navegacionJava.js" type="text/javascript"></script>
+    </body>
+
+
+</html>
+

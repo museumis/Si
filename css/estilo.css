@@ -1,0 +1,304 @@
+
+/*   
+    Author     : Ismael Martín Ramírez [imartinr01@informatica.iesvalledeljerteplasencia.es]
+*/
+
+/*--------------------------*/ 
+/*----------Paleta----------*/ 
+/*--------------------------*/ 
+/*Rojo: #EE0058
+Lila: #C036F3
+Azul: #00CBFF
+Amarillo: #FFDE00
+Coral: #ED462F ;links
+Negro: no
+MenosNegro: #212121; letras
+Gris: #E9E9E9; subrallado
+MenosBlanco: #F1F1F1 fondos
+Blanco:#FFFFFF*/
+
+/*--------------------------*/ 
+/*----------Layout----------*/ 
+/*--------------------------*/ 
+
+html{
+    overflow-y:scroll;      
+}
+body{
+    margin:0px;
+    color:#212121;
+    font-family: 'Whitney SSm A','Whitney SSm B',sans-serif;
+    line-height: 28px;
+    letter-spacing:0.6px;
+}
+header{
+    width:88%;
+    height:130px;
+    margin-left:6%;
+}
+
+#cuerpo{  
+    position:relative;
+    top:30px;
+}
+.articulo{
+    width:61%;
+    margin-left: 19%;
+
+    overflow-x:hidden;
+    position:absolute;
+}
+
+#listadoIzquierda,#listadoDerecha{
+    color:white;
+    padding:0px;
+    margin:0px;
+
+    position: absolute;     
+    opacity:0;
+    list-style: none;
+
+}
+
+#listadoIzquierda{   
+    width: 17%; 
+    left: 0px;  
+
+}
+
+#listadoDerecha{
+    width: 20%; 
+    right: 0px;
+    font-size: 25px;
+
+}
+footer{
+    width:80%;
+
+    position: fixed;    
+    bottom: 1%;
+    left:1%;
+    z-index:-1;
+}
+/*--------------------------*/ 
+/*----------CAJAS-----------*/ 
+/*--------------------------*/ 
+/*h1-Logo/h2-Sobre mi/h2-Proyectos/h2-Oculto*/
+h1,h2{
+    color:white;
+    margin:0px;  
+    width: 25%;
+    height:130px;
+    float: left;
+    text-shadow: 20px -15px 60px #FFFFFF;    
+    text-align: center;
+    font-size:28px;
+}
+h1{    
+    border-top:#F1F1F1 solid 5px;
+    height: 100%;
+    color:#B9835F;
+    text-align: left;
+    font-size:20px;
+}
+h2{
+    line-height: 110px;
+}
+
+
+/*h3 listado derecha,h4 listado izquierda, h5 titulos artículo*/
+h3,h4,h5{
+    margin:0px;
+    display:block;
+}
+h3{
+    padding-top:20%;
+    text-shadow: 20px -15px 70px #FFFFFF;
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+h4{
+    padding: 5%;
+}
+h5{
+    font-size: 18px;
+}
+
+h2:hover,h3:hover,h4:hover{
+    letter-spacing:0.9px;
+    text-shadow: 20px -15px 32px #F1F1F1;
+    transition: border-bottom 0.3s linear 0s,text-shadow 0.8s linear 0s, letter-spacing 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+}
+
+h2:hover{
+    border-bottom:#8F5444 solid 3.5px;
+}
+/*Listado izquierda y derecha*/
+#listadoIzquierda ul,#listadoDerecha ul{
+}
+
+#listadoIzquierda ul li,#listadoDerecha ul li{
+    text-align:center;
+}
+
+#listadoIzquierda ul li:hover,#listadoDerecha ul li:hover{
+    text-align:center;
+}
+#listadoIzquierda ul{ 
+    padding-left:0px;
+}
+#listadoDerecha ul{       
+}
+/*Cajas listado izquierda*/
+
+#listadoIzquierda ul li{
+    color:white;
+    background-color: #FFDE00;
+    height:50px; 
+
+    text-transform:uppercase;   
+
+}
+#listadoIzquierda ul li:hover{
+    color:#FFDE00;
+    background-color: white;    
+    border-left:#8F5444 solid 5px; 
+    transition: border-left 0.3s linear 0s,color 0.5s ease 0s,background-color 0.6s;  
+
+}
+#listadoIzquierda ul li:nth-child(2n){
+    background-color: #F9C203;
+}
+
+#listadoIzquierda ul li:nth-child(2n):hover{    
+    color:#FFDE00;
+    background-color: white;
+}
+/*Cajas listado derecha*/
+
+#listadoDerecha ul li{
+    height:130px;  
+    list-style: none;
+    color:white;
+}
+
+#listadoDerecha ul li:hover{
+    border-left:#8F5444 solid 4px;
+    margin-left:-4px;
+    transition: border-left 0.3s linear 0s,margin-left 0.25s linear 0s;    
+}
+#listadoDerecha ul li:nth-child(1){
+    background-color:#EE0058;
+}
+#listadoDerecha ul li:nth-child(2){
+    background-color:#DC214C;
+
+
+}
+#listadoDerecha ul li:nth-child(3){
+    background-color:#EC596C;
+
+}
+#listadoDerecha ul li:nth-child(4){
+    background-color:#E3556B;
+}
+#listadoDerecha ul li:nth-child(5){
+    background-color:#F19ABD;
+}
+#listadoDerecha ul li:nth-child(6){
+    background-color:#BC825C;
+}
+/*Caja del footer*/
+#contacto{
+    height:130px;
+    width:20%;
+    border-top:#F1F1F1 solid 5px; 
+    transform: translateX(-3px);
+}
+#contacto:hover {
+
+}
+#sobreMi{
+    background-color:#C036F3;
+}
+#proyectos{
+    background:#1BD1FF;
+}
+#otro{
+    color:#B9835F;
+    opacity:0;
+}
+
+#otro:hover{ 
+    opacity:1;
+    border:0px;
+}
+
+a{
+    text-decoration:none; 
+    color: #ED462F;
+}
+
+h3 a,h4 a{
+    color:white;
+
+}
+h5 a{
+    color:white;
+
+}
+
+/*Artículo*/
+
+.articulo pre{
+    width:95%;
+    height:100%;
+    padding:15px 10px 25px 10px;
+    overflow:auto;
+    background-color: #F1F1F1 ; 
+    border-top:#8F5444 solid 3.5px;
+}
+
+.articulo pre:hover{
+
+    border-top: #F1F1F1 solid 4.5px;
+    transition: border-top 0.4s linear 0s
+}
+var,time{
+    background-color: #F1F1F1 ;    
+    display:inline-block;    
+}
+
+.articulo footer{
+    /*trae heredadas */
+    width:100%;
+    position: relative;       
+    z-index:0; 
+    margin-bottom:10%;
+    /**/
+}
+
+/*Estilo de los articulos en el index*/
+
+#datosPersonales{
+    opacity:0;
+}
+
+#queSe{
+    opacity:0;
+}
+
+#queSe img{
+    margin-left: 25%;
+}
+#datosPersonales img{
+    float: right;
+    margin:5%;
+
+}
+
+#arContacto{
+    opacity:0;
+}
+

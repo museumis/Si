@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Ismael Martín Ramírez" />
+
+        <!--    <base href = "http://www.lmsgi.iesvjp.es/~imartinr/CSS/" target = "vtr" />   -->
+        <link href="css/estilo.css" type="text/css" rel="stylesheet" title="Estilo Index" media="all"/> 
+    </head>
+
+    <body>
+
+        <header>
+            <a title="logo" href="index.html"><h1>Inicio</h1></a>
+            <hgroup>
+                <h2 title="Sobre mi..." id="sobreMi">Sobre mi</h2>
+                <h2 title="Mis proyectos" id="proyectos" onclick="javascript:mostrarD('listadoDerecha');">Proyectos</h2>
+            </hgroup>
+            <h2 title="otros" id="otro">oculto</h2>
+        </header>
+
+        <div id="cuerpo">
+
+            <section id="listadoIzquierda">
+                <ul>
+                    <li id="clickPersonal"><h4>Personal</h4></li>
+                    <li id="clickQueSe"><h4>¿Qué sé?</h4></li>
+                    <li id="clickContacto"><h4>Contacto</h4></li>
+
+                </ul>            
+            </section>  
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="mariposa">
+
+                <img src="imagenes/mariposa.gif" alt="Gif de una mariposa"/>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="datosPersonales">
+
+                <p><img src="imagenes/arbolsol.gif" alt="Gif de una isla al sol"/>
+
+                    <h5><strong>Mis Datos Personales</strong></h5>
+                    <time>2016-07-2017 09:00</time>
+                </p>
+                <p>
+                    Con esta web pretendo presentar mi currículo.
+
+                </p>
+                <p>   
+                    <p>  Ismael Martín, vecino de Plasencia desde diciembre de 1990.        </p>       
+                    <p>  Me he inciado en el estudio del desarrollo de aplicaciones en el instituto IES Valle del Jerte. Adquiriendo grandes conocimientos que deseo ilustrar en esta web.        </p>
+                    <p> No cuento con experiencia profesional, pero el trabajo duro por crecer está asegurado.          </p>             
+
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+            <article class="articulo" id="queSe">
+                <p> <h5><strong>Mis conocimientos</strong></h5>
+                    <time>2016-07-2017 09:00</time></p>
+                <p>
+                    Estoy cursando el ciclo de grado superior <abbr title="Desarrollo de Aplicacions Multiplataforma">DAM</abbr> en el instituto IES Valle del Jerte de Plasencia                </p>
+                <p>   
+                    <p>Conocimientos en lenguajes de programación Java,SQL,Transac SQL, HTML, CSS y JavaScript.      </p>
+                    <p>Los entornos de trabajo que conozco son NetBeans, pgAdmin y sqlServer. </p>
+                    <p>Soy técnico superior en Desarrollos de proyectos de edificación. Tengo conocimientos en el manejo de AutoCad, CypeMec, CypeCad, Lider, C3X, Presto y Microsof Project.</p> 
+                    <img src="imagenes/Frog.gif" alt="Gif rana"/>
+            </article>
+
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+            <article class="articulo" id="arContacto">
+                <p><h5><strong>Contacto</strong></h5>
+                    <time>2016-07-2017 09:00</time></p>
+                <p>Puedes contactarme mediante
+                    <a href="mailto:imartinr01@informatica.iesvalledeljerteplasencia.es" title="Correo del creador de la página.">correo.</a>
+                </p>
+                <p><img src="imagenes/conFirma.gif" alt="Gif de carta firmada" title="Firma tu correo y no introduzcas links"/></p>
+            </article>
+            
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+
+            <section id="listadoDerecha">
+                <ul>
+                    <li><a href="java.html"><h3>Java</h3></a></li>
+                    <li><h3>Web</h3></li>                    
+                    <li><h3>SQL</h3></li>
+
+
+                </ul>            
+            </section>
+
+        </div>
+
+        <footer>
+            <address title="Contacto" id="contacto">
+                Ismael Martín <br />
+                Desarrollador de Apps Multiplataforma<br />
+                <a href="mailto:imartinr01@informatica.iesvalledeljerteplasencia.es" title="Correo del creador de la página.">Enviame un correo</a>
+            </address>
+        </footer>        
+
+        <script src="js/navegacionIndex.js" type="text/javascript" title="Estilo Index"></script>
+
+    </body>
+
+
+</html>
+

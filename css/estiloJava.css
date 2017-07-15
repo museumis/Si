@@ -1,0 +1,12 @@
+#listadoIzquierda,#listadoDerecha{      
+    opacity:1;   
+}
+/*Estilo de los articulos en java*/
+#duke img{
+   
+   margin-left:40%;
+   margin-top:5%;
+}
+#arIf{
+    opacity:0;
+}
