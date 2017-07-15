@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" >
 
     <head>
         <title>Java</title>
@@ -28,28 +28,16 @@
 
             <section id="listadoIzquierda">
                 <ul>
-                    <li>
-                        <h4 id="clickCondicional">Condicionales</h4></li>
-
+                    <li id="clickCondicional"> <h4>Condicionales</h4> </li>
+                    <li id="click3enRaya"><h4>3 en Raya</h4></li>
                     <li><h5>algo</h5></li>
                     <li><h5>algo</h5></li>
                     <li><h5>algo</h5></li>
                     <li><h5>algo</h5></li>
 
-
-                    <li><h4>Array</h4></li>
-
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-
-
-                    <li><h4>Array</h4></li>
-                    <li><h4>Array</h4></li>
                 </ul>            
             </section>  
-                        <!----------------------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------------------->
 
             <article class="articulo" id="duke">
                 <img src="imagenes/duke.gif" alt=""/>
@@ -136,8 +124,8 @@ public class parImpar {
                     Introduce un numero: 1
                     Número impar.
                     </code> </pre> 
-                        
-                            <code> <pre> 
+
+                    <code> <pre> 
                     ¿Par o impar?
                     Introduce un numero: 2
                     Número par.
@@ -145,6 +133,135 @@ public class parImpar {
                 </samp> 
 
                 <p>Obteniendo el resto de una división mediante el signo <var>%</var> y sometiendo el resultado a un condicional <var>If</var> y <var>else</var> obtenemos si el número es par o impar.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+                      <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="ar3r">
+                <h5><strong>3 en raya</strong></h5>
+                <time>2017-07-15  08:00</time>
+                <p>
+                    Algoritmo del juego 3 en raya en Java orientado a objetos. Juego contra el ordenador.
+                </p>
+
+                <a href="https://github.com/dam1-imartinr01/3enRaya/tree/master/src/ejer11_t7_3enrayaobjetos" title="Repositorio Github" target="vtr">Repositorio en Github del juego 3 en Raya.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre>                    
+           @@@@@@@@@@@@@@@@@@@@@@
+           @ ¡3EnRaya OBJETOS! @@
+           @@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+¡Jugador comienza turno y juega la ficha 0!
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+Fila : 1
+Columna : 1
+El jugador puso su ficha en [1][1] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+     La máquina puso su ficha en [1][2] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+Fila : 1
+Columna : 2
+Esa posicón está ocupada.
+Fila : 2
+Columna : 1
+El jugador puso su ficha en [2][1] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+     La máquina puso su ficha en [3][1] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+Fila : 2
+Columna : 2
+El jugador puso su ficha en [2][2] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
+~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+     La máquina puso su ficha en [3][3] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
+~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+Fila : 2
+Columna : 3
+El jugador puso su ficha en [2][3] 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+~~~~~~   O   ~~~~~~   O   ~~~~~~   O   ~~~@@@a
+~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+~~~~~~~~~~~~~~~ ¡¡Ganaste!! ~~~~~~~~~~~~~
+   ~~~~~~~~~~ @@@@@@@@@@@@@@@@ ~~~~~~~~~~
+
+                    </code> </pre> 
+
+                </samp> 
+
+                <p>Con las clases Tablero y Casilla podemos hacer funcional un algorítmo que nos permita jugar al 3 en Raya contra el ordenador.</p>
 
 
                 <footer>by Ismael Martin</footer>
