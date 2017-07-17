@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" >
 
     <head>
         <title>Java</title>
@@ -28,75 +28,22 @@
 
             <section id="listadoIzquierda">
                 <ul>
-                    <li>
-                        <h4 id="clickCondicional">Condicionales</h4></li>
-
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-
-
-                    <li><h4>Array</h4></li>
-
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
+                    <li id="clickCondicional"> <h4>Condicionales</h4> </li>
+                    <li id="click3enRaya"><h4>3 en Raya</h4></li>
+                    <li id="clickTemperatura"><h4>Medidor Temperaturas</h4></li>
+                    <li id="clickContar"><h4>Contar palabras</h4></li>
+                    <li id="clickBlack"><h4>BlackJack</h4></li> 
+                    <li id="clickAho"><h4>Ahorcado</h4></li>  
+                    <li id="clickRule"><h4>Ruleta de la fortuna</h4></li>  
 
 
-                    <li><h4>Array</h4></li>
-                    <li><h4>Array</h4></li>
                 </ul>            
             </section>  
-                        <!----------------------------------------------------------------------------------------------------------------------------->
+            <!----------------------------------------------------------------------------------------------------------------------------->
 
             <article class="articulo" id="duke">
                 <img src="imagenes/duke.gif" alt=""/>
             </article>
-
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
-            <!--            <article class="articulo">
-                            <h5><strong>Titulo</strong></h5>
-                            <time>2008-02-14 20:00</time>
-                            <p>
-                                Documento plantilla para mostrar un proyecto
-                            </p>
-                            <pre>
-                            <code>
-             Código del programa
-            
-                            </code>
-            
-                            </pre>
-            
-                            <p>   
-                                Explicación:<br />
-                                <var>VARIABLEE</var>
-            
-                                quis nostrud exercitatio ex ea commodo consequat. Duis aute irure <var>VARIABLEE</var> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <pre>
-                            <samp>
-                               
-                                SALIDA DEL PROGRAMA
-            
-            
-            
-                                Explicación:<br />
-                                <var>VARIABLEE</var>
-            
-                              
-              quis nostrud exercitatio ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                      </samp> </pre>   
-            
-                            <p>
-                                Explicacion final
-                            </p>
-                            <footer>by Ismael Martin (github)</footer>
-            
-                        </article>-->
 
             <!----------------------------------------------------------------------------------------------------------------------------->
 
@@ -119,7 +66,7 @@ public class parImpar {
 
     public static void main(String[] args) {
         System.out.println("¿Par o impar?");
-        if (pedirNumero("Introduce un numero: ") % 2 == 0) {
+        if (pedirNumero("Introduce un número: ") % 2 == 0) {
             System.out.println("Número par.");
         } else {
             System.out.println("Número impar.");
@@ -133,13 +80,13 @@ public class parImpar {
                 <samp>
                     <code> <pre> 
                     ¿Par o impar?
-                    Introduce un numero: 1
+                    Introduce un número: 1
                     Número impar.
                     </code> </pre> 
-                        
-                            <code> <pre> 
+
+                    <code> <pre> 
                     ¿Par o impar?
-                    Introduce un numero: 2
+                    Introduce un número: 2
                     Número par.
                     </code> </pre> 
                 </samp> 
@@ -150,6 +97,540 @@ public class parImpar {
                 <footer>by Ismael Martin</footer>
 
             </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="ar3r">
+                <h5><strong>3 en raya</strong></h5>
+                <time>2017-07-15  08:00</time>
+                <p>
+                    Algoritmo del juego 3 en raya en Java orientado a objetos. Juego contra el ordenador.
+                </p>
+
+                <a href="https://github.com/dam1-imartinr01/3enRaya/tree/master/src/ejer11_t7_3enrayaobjetos" title="Repositorio Github" target="vtr">Repositorio en Github del juego 3 en Raya.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre>                    
+                   @@@@@@@@@@@@@@@@@@@@@@
+                   @ ¡3EnRaya OBJETOS! @@
+                  @@@@@@@@@@@@@@@@@@@@@@
+
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+        ¡Jugador comienza turno y juega la ficha 0!
+
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 1
+        Columna : 1
+        El jugador puso su ficha en [1][1] 
+
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+            La máquina puso su ficha en [1][2] 
+
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 1
+        Columna : 2
+        Esa posicón está ocupada.
+        Fila : 2
+        Columna : 1
+        El jugador puso su ficha en [2][1] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+            La máquina puso su ficha en [3][1] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 2
+        Columna : 2
+        El jugador puso su ficha en [2][2] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+            La máquina puso su ficha en [3][3] 
+                
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 2
+        Columna : 3
+        El jugador puso su ficha en [2][3] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~   O   ~~~~~~   O   ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+        ~~~~~~~~~~~~~~~ ¡¡Ganaste!! ~~~~~~~~~~~~~
+        ~~~~~~~~~~ @@@@@@@@@@@@@@@@ ~~~~~~~~~~
+            
+                            </code> </pre> 
+
+                </samp> 
+
+                <p>Con la clases Tablero y Casilla podemos hacer un algorítmo que nos permita jugar al 3 en Raya contra el ordenador.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+            <article class="articulo" id="artemp">
+                <h5><strong>Medidor Temperaturas</strong></h5>
+                <time>2017-07-15  08:00</time>
+                <p>
+                    Algoritmo en Java que obtiene la media y la mayores temperaturas en un mes rellenado automáticamente
+                </p>
+
+                <a href="https://github.com/dam1-imartinr01/medidorTemperaturas/tree/master/src/ejer07_t7_teperaturamediames" title="Repositorio Github" target="vtr">Repositorio en Github de un medidor de temperaturas.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre>                    
+            Bienvenido al medidor de temperaturas medias.
+
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 1
+
+            El mes ha sido rellenado con temperaturas
+
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 2
+
+            Viernes dia 0 : 31 grados
+            Sábado dia 1 : 9 grados
+            Domingo dia 2 : 44 grados
+            Lunes dia 3 : 22 grados
+            Martes dia 4 : 2 grados
+            Miércoles dia 5 : 5 grados
+            Jueves dia 6 : 17 grados
+            Viernes dia 7 : -1 grados
+            Sábado dia 8 : 19 grados
+            Domingo dia 9 : 37 grados
+            Lunes dia 10 : 19 grados
+            Martes dia 11 : 44 grados
+            Miércoles dia 12 : 37 grados
+            Jueves dia 13 : 14 grados
+            Viernes dia 14 : 13 grados
+            Sábado dia 15 : 8 grados
+            Domingo dia 16 : 39 grados
+            Lunes dia 17 : 10 grados
+            Martes dia 18 : 42 grados
+            Miércoles dia 19 : 20 grados
+            Jueves dia 20 : 21 grados
+            Viernes dia 21 : 3 grados
+            Sábado dia 22 : 19 grados
+            Domingo dia 23 : 35 grados
+            Lunes dia 24 : 9 grados
+            Martes dia 25 : 11 grados
+            Miércoles dia 26 : 27 grados
+            Jueves dia 27 : 0 grados
+            Viernes dia 28 : 25 grados
+            Sábado dia 29 : 21 grados
+                
+
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 3
+                
+            La temperadura media es 20.066668 grados.
+                
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 4
+                
+            El día o dias más calurosos fueron: 
+            El Domingo dia 2 con una temperatura de 44 grados.
+            El Martes dia 11 con una temperatura de 44 grados.
+                
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 5
+            ¡Saludos!
+                    </code> </pre> 
+
+                </samp> 
+
+                <p>Con la clase Dia podemos hacer un algorítmo que nos permita hacer cálculos con un array compuesto de objetos de dicha clase.</p>
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+            <article class="articulo" id="arConT">
+                <h5><strong>Contar palabras</strong></h5>
+                <time>2017-07-17  09:00</time>
+                <p>
+                    Algoritmo que nos pide una palabra y cuenta las veces que se repite en el fichero.
+                </p>
+                <a href="https://github.com/museumis/contarPalabraEnFichero/blob/master/src/ejer32_t12_contarpalabraelegidafichero/Ejer32_t12_contarPalabraElegidaFichero.java" title="Repositorio Github" target="vtr">Repositorio en Github de un contador de palabras.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre> 
+                           Lector de Palabras
+                          --------------------
+            Nombre del fichero: (quijote.txt)quijote.txt
+            Palabra a buscar: la
+            El fichero contiene un total de 5 palabras iguales que "la" .
+            ¡Saludos!
+                    </code> </pre> 
+                </samp> 
+
+                <p>Comparando la palabra requerida con todas las que tiene el fichero podemos saber las veces que se repite.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="arBlack">
+                <h5><strong>BlackJack</strong></h5>
+                <time>2017-07-17  09:00</time>
+                <p>
+                    Algoritmo del juego BlackJack.
+                </p>
+                <a href="https://github.com/museumis/Blackjack/tree/master/src/ejer15_t8_blackjack" title="Repositorio Github" target="vtr">Repositorio del juego BlackJack.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre> 
+            ------------------
+            !BLACK JACK!
+            ------------------
+            ¡Baraja Nueva!
+            ------------------
+            !Barajada!
+            ------------------
+            Carta del jugador: Seis de Picas
+            Carta de la Banca: Siete de Rombos
+            ------------------
+            ¡Turno del jugador!
+            Con 6 de suma.¿Deseas descubrir otra carta? si
+            Carta del jugador: Cuatro de Corazones
+            Con 10 de suma.¿Deseas descubrir otra carta? si
+            Carta del jugador: Caballo de Picas
+            Con 20 de suma.¿Deseas descubrir otra carta? no
+            ------------------
+            ¡Turno de la banca!
+            Con 7 de suma.Rey de Picas
+            Con 17 de suma.Rey de Corazones
+            ¡La Banca se pasó, 27 !
+            !Ganaste!
+                    </code> </pre> 
+                </samp> 
+
+                <p>Gracias a la clase juego podemos organizar la sucesión de funciones utilizando los objetos baraja, carta y tapete.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+            
+             <!----------------------------------------------------------------------------------------------------------------------------->
+
+            <article class="articulo" id="arAho">
+                <h5><strong>Ahorcado</strong></h5>
+                <time>2017-07-17  09:00</time>
+                <p>
+                    Algoritmo del juego el ahorcado.
+                </p>
+                <a href="https://github.com/museumis/ahorcado/blob/master/src/ejer21_t8_ahorcado/Ejer21_t8_Ahorcado.java" title="Repositorio Github" target="vtr">Repositorio en Github del ahorcado.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre> 
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                             |---¬|¬           
+                             |    |          
+                    ¡EL      |    |          
+                  AHORCADO!  |    @           
+                             |   -|-           
+                             |   / \          
+                             |            
+                           --^--           
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Intenta adivinar la fruta que se esconde tras la palabra secreta.
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Palabra secreta:  _  _  _  _  _  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: c
+                ¡Atención!
+                  . . . 
+                ¡La letra esta en la palabra!
+                Palabra secreta:  c  _  _  _  _  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: t
+                ¡Atención!
+                  . . . 
+                La letra no esta en la palabra...
+
+                             |           
+                             |              
+                    ¡1ª      |             
+                   FALLO!    |              
+                             |             
+                             |         
+                             |            
+                           --^--           
+
+                Palabra secreta:  c  _  _  _  _  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: e
+                ¡Atención!
+                  . . . 
+                ¡La letra esta en la palabra!
+                Palabra secreta:  c  e  _  e  _  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: r
+                ¡Atención!
+                  . . . 
+                ¡La letra esta en la palabra!
+                Palabra secreta:  c  e  r  e  _  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: z
+                ¡Atención!
+                  . . . 
+                ¡La letra esta en la palabra!
+                Palabra secreta:  c  e  r  e  z  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: i
+                ¡Atención!
+                  . . . 
+                La letra no esta en la palabra...
+
+                             |---¬|¬           
+                             |              
+                    ¡2ª      |             
+                   FALLO!    |              
+                             |              
+                             |             
+                             |            
+                           --^--           
+
+                Palabra secreta:  c  e  r  e  z  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: g
+                ¡Atención!
+                  . . . 
+                La letra no esta en la palabra...
+
+                             |---¬|¬           
+                             |    |          
+                    ¡3ª      |    |          
+                   FALLO!    |               
+                             |              
+                             |             
+                             |            
+                           --^--           
+
+                Palabra secreta:  c  e  r  e  z  _ 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Introduce una letra: a
+                ¡Atención!
+                  . . . 
+                ¡La letra esta en la palabra!
+                Palabra secreta:  c  e  r  e  z  a 
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                ¡ESA ERA LA PALABRA,LE SALVASTE!
+                    </code> </pre> 
+                </samp> 
+
+                <p>Creando una palabra apartir de las letras solicitadas, la comparamos con la palabra secreta.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>
+
+            <!----------------------------------------------------------------------------------------------------------------------------->
+
+
+            <article class="articulo" id="arRule">
+                <h5><strong>Ruleta de la fortuna</strong></h5>
+                <time>2017-07-17  09:00</time>
+                <p>
+                    Algoritmo del juego de la ruleta de la fortuna.
+                </p>
+                <a href="https://github.com/museumis/ruletaFortuna/tree/master/src/ejer22_t8_ruletadelafortuna" title="Repositorio Github" target="vtr">Repositorio en Github de un contador de palabras.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre> 
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+               La Ruleta de la fortuna  
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            ¿Nombre del primer jugador?: Si
+            ¿Nombre del segundo jugador?Jug2
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            Intenta adivinar la fruta que se esconde tras la palabra secreta.
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            Palabra secreta: _ _ _ _ _ _ 
+
+            ¡Juega Si
+            -------------------------------
+            ¡Pulsa cualquier letra e intro para lanzar la ruleta!d
+            ¡Salio la casilla de 300 €!
+            ~~~~~~~~~~~~~~~~~~~~~~
+            Pulsa 1 para pedir letra 
+            Pulsa 2 para resolver 1
+            ¿Letra? z
+            ¡La letra está en la palabra secreta!
+            _ _ _ _ z _ 
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            Palabra secreta: _ _ _ _ z _ 
+
+            ¡Juega Jug2
+            -------------------------------
+            ¡Pulsa cualquier letra e intro para lanzar la ruleta!r
+            ¡Salio la casilla de 500 €!
+            ~~~~~~~~~~~~~~~~~~~~~~
+            Pulsa 1 para pedir letra 
+            Pulsa 2 para resolver 1
+            ¿Letra? c
+            ¡La letra está en la palabra secreta!
+            c _ _ _ z _ 
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            Palabra secreta: c _ _ _ z _ 
+
+
+            ¡Juega Si
+            -------------------------------
+            ¡Pulsa cualquier letra e intro para lanzar la ruleta!e
+            ¡Salio la casilla de 0 €!
+            Vaya... salió quiebra... tu marcado queda a 0.
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            Palabra secreta: c _ _ _ z _ 
+
+            ¡Juega Jug2
+            -------------------------------
+            ¡Pulsa cualquier letra e intro para lanzar la ruleta!r
+            ¡Salio la casilla de 300 €!
+            ~~~~~~~~~~~~~~~~~~~~~~
+            Pulsa 1 para pedir letra 
+            Pulsa 2 para resolver 2
+            ¿Cúal es la respuesta? cereza
+            ¡Si!¡Acertaste!
+            ¡ Jug2 ha ganado 800 €!
+            º-º-º-º-º--º-º-º-º-º-º-º-º-º-
+            ¡El Jug2 ganó 800€! Con cereza
+            ¡Saludoos!
+                    </code> </pre> 
+                </samp> 
+
+              <p>Gracias a la clase juego podemos organizar la sucesión de funciones utilizando los objetos jugador, ruleta y panel.</p>
+
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>            
+                        <!----------------------------------------------------------------------------------------------------------------------------->
+
+<!--            <article class="articulo" id="  ">
+                <h5><strong>Titulo</strong></h5>
+                <time>2017-07-17  09:00</time>
+                <p>
+                    inicio
+                </p>
+                <a href="  " title="Repositorio Github" target="vtr">Repositorio en Github de un contador de palabras.</a>
+
+                <p>Salida del programa:</p>
+
+                <samp>
+                    <code> <pre> 
+                          --------------------
+         
+                    </code> </pre> 
+                </samp> 
+
+                <p>Final.</p>
+
+
+                <footer>by Ismael Martin</footer>
+
+            </article>-->
 
             <!----------------------------------------------------------------------------------------------------------------------------->
             <section id="listadoDerecha">

@@ -45,7 +45,6 @@ header{
     width:61%;
     margin-left: 19%;
 
-    overflow-x:hidden;
     position:absolute;
 }
 
@@ -238,7 +237,7 @@ h2:hover{
 a{
     text-decoration:none; 
     color: #ED462F;
-}
+   }
 
 h3 a,h4 a{
     color:white;
