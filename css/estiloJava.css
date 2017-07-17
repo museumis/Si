@@ -3,9 +3,9 @@
 }
 /*Estilo de los articulos en java*/
 #duke img{
-   
-   margin-left:40%;
-   margin-top:5%;
+
+    margin-left:40%;
+    margin-top:5%;
 }
 #arIf{
     opacity:0;
@@ -20,4 +20,30 @@
 
 #clickTemperatura{
     font-size:14px;
+    /*overflow:auto;*/
+
+}
+
+arCont{
+    opacity:0;
+}
+
+#arBlack{
+    opacity:0;
+}
+
+#arAho{
+    opacity:0;
+}
+
+#arRule{
+    opacity:0;
+}
+
+#clickRule{
+    font-size:15.5px;
+     /*overflow:auto;*/
+}
+#clickRule:hover{
+    font-size:14.5px;
 }
