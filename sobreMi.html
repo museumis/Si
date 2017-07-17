@@ -4,32 +4,31 @@
     <head>
         <title>Sobre Mi</title>
         <meta name="author" content="Ismael Martín Ramírez" />
-        <meta name="description" content="Curriculo vitae de Ismael. Programacion en Java, html, css, javascript y SQL" />        
+        <meta name="description" content="Currículo vitae de Ismael. Programación en Java, html, css, javascript y SQL" />        
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="generator" content="NetBeans IDE 8.1" />
         <meta name="keywords" content="css, hojas de estilos, web, html, java, javascript, codigo, sql, programacion" />
-        
-        
 
-        <!--    <base href = "http://www.lmsgi.iesvjp.es/~imartinr/CSS/" target = "vtr" />   -->
-        <link href="css/estilo.css" type="text/css" rel="stylesheet" title="Estilo Index" media="all"/> 
-        <link href="css/estiloSobreMi.css" type="text/css" rel="stylesheet"  media="all"/> 
+
+
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" media="all"/> 
+        <link rel="stylesheet" type="text/css" href="css/estiloSobreMi.css" media="all"/> 
 
     </head>
 
     <body>
-
-        <header>
-            <a title="logo" href="index.html"><h1>Inicio</h1></a>
-            <hgroup>
-                <h2 title="Sobre mi..." id="sobreMi" onclick="javascript:mostrarI('listadoIzquierda');">Sobre mi</h2>
-                <h2 title="Mis proyectos" id="proyectos" onclick="javascript:mostrarD('listadoDerecha');">Proyectos</h2>
-            </hgroup>
-            <h2 title="otros" id="otro">oculto</h2>
-        </header>
-
         <div id="cuerpo">
+            <header>
+                <a title="logo" href="index.html"><h1>Inicio</h1></a>
+                <hgroup>
+                    <h2 title="Sobre mi..." id="sobreMi" onclick="javascript:mostrarI('listadoIzquierda');">Sobre mi</h2>
+                    <h2 title="Mis proyectos" id="proyectos" onclick="javascript:mostrarD('listadoDerecha');">Proyectos</h2>
+                </hgroup>
+                <h2 title="otros" id="otro">oculto</h2>
+            </header>
+
+
 
             <section id="listadoIzquierda">
                 <ul>
@@ -43,7 +42,7 @@
 
             <article class="articulo" id="mariposa">
 
-                <img src="imagenes/mariposa.gif" alt="Gif de una mariposa"/>
+                <img src="imagenes/mariposa.gif" title="Mariposa" alt="Gif de una mariposa"/>
 
             </article>
 
@@ -51,7 +50,7 @@
 
             <article class="articulo" id="datosPersonales">
 
-                <p><img src="imagenes/arbolsol.gif" alt="Gif de una isla al sol"/>
+                <p><img src="imagenes/arbolsol.gif" title="Isla soleada" alt="Gif de una isla al sol"/>
 
                     <h5><strong>Mis Datos Personales</strong></h5>
                     <time>2016-07-2017 09:00</time>
@@ -80,7 +79,7 @@
                     <p>Conocimientos en lenguajes de programación Java,SQL,Transac SQL, HTML, CSS y JavaScript.      </p>
                     <p>Los entornos de trabajo que conozco son NetBeans, pgAdmin y sqlServer. </p>
                     <p>Soy técnico superior en Desarrollos de proyectos de edificación. Tengo conocimientos en el manejo de AutoCad, CypeMec, CypeCad, Lider, C3X, Presto y Microsof Project.</p> 
-                    <img src="imagenes/Frog.gif" alt="Gif rana"/>
+                    <img src="imagenes/Frog.gif" title="Rana" alt="Gif rana"/>
             </article>
 
 
@@ -109,8 +108,8 @@
                 </ul>            
             </section>
 
-        </div>
-
+       
+</div>
         <footer>
             <address title="Contacto" id="contacto">
                 Ismael Martín <br />
@@ -118,7 +117,7 @@
                 <a href="mailto:imartinr01@informatica.iesvalledeljerteplasencia.es" title="Correo del creador de la página.">Enviame un correo</a>
             </address>
         </footer>        
-
+ 
         <script src="js/navegacionIndex.js" type="text/javascript" title="Estilo Index"></script>
     </body>
 

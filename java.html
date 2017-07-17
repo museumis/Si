@@ -3,29 +3,30 @@
 
     <head>
         <title>Java</title>
-    <meta name="author" content="Ismael Martín Ramírez" />
-        <meta name="description" content="Curriculo vitae de Ismael. Programacion en Java, html, css, javascript y SQL" />        
+        <meta name="author" content="Ismael Martín Ramírez" />
+        <meta name="description" content="Currículo vitae de Ismael. Programación en Java, html, css, javascript y SQL" />        
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="generator" content="NetBeans IDE 8.1" />
         <meta name="keywords" content="css, hojas de estilos, web, html, java, javascript, codigo, sql, programacion" />
 
-        <link href="css/estilo.css" rel="stylesheet" type="text/css" title="Estilo Articulos" media="all"/>
-        <link href="css/estiloJava.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" media="all"/>
+        <link rel="stylesheet" type="text/css" href="css/estiloJava.css" media="all"/>
 
     </head>
 
     <body>
 
-        <header>
-            <a title="logo" href="index.html"><h1>Inicio</h1></a>
-            <a title="Sobre mi..." href="sobreMi.html" ><h2 id="sobreMi">Sobre mi</h2></a>
-            <h2 title="Mis proyectos" id="proyectos">Proyectos</h2>
-
-            <h2 title="otros" id="otro">oculto</h2>
-        </header>
-
         <div id="cuerpo">
+            <header>
+                <a title="logo" href="index.html"><h1>Inicio</h1></a>
+                <a title="Sobre mi..." href="sobreMi.html" ><h2 id="sobreMi">Sobre mi</h2></a>
+                <h2 title="Mis proyectos" id="proyectos">Proyectos</h2>
+
+                <h2 title="otros" id="otro">oculto</h2>
+            </header>
+
+
 
             <section id="listadoIzquierda">
                 <ul>
@@ -43,7 +44,7 @@
             <!-- ------------------------------------------------------------------------------------------------------------------------- -->
 
             <article class="articulo" id="duke">
-                <img src="imagenes/duke.gif" alt="Imqagen de Duke"/>
+                <img src="imagenes/duke.gif" title="Imagen de Duke" alt="Imqagen de Duke"/>
             </article>
 
             <!----------------------------------------------------------------------------------------------------------------------------->
@@ -55,7 +56,7 @@
                     Algoritmo que nos muestra si un número es par o impar.
                 </p>
 
-                  <code><pre> 
+                <code><pre> 
 import java.util.Scanner;
 
 public class parImpar {
@@ -83,13 +84,13 @@ public class parImpar {
                     ¿Par o impar?
                     Introduce un número: 1
                     Número impar.
-                    </pre> </code>  
+                        </pre> </code>  
 
                     <code> <pre> 
                     ¿Par o impar?
                     Introduce un número: 2
                     Número par.
-                     </pre></code> 
+                        </pre></code> 
                 </samp> 
 
                 <p>Obteniendo el resto de una división mediante el signo <var>%</var> y sometiendo el resultado a un condicional <var>If</var> y <var>else</var> obtenemos si el número es par o impar.</p>
@@ -216,7 +217,7 @@ public class parImpar {
         ~~~~~~~~~~~~~~~ ¡¡Ganaste!! ~~~~~~~~~~~~~
         ~~~~~~~~~~ @@@@@@@@@@@@@@@@ ~~~~~~~~~~
             
-                             </pre></code> 
+                        </pre></code> 
 
                 </samp> 
 
@@ -320,7 +321,7 @@ public class parImpar {
             Introduce 5 para salir:
             Opcion: 5
             ¡Saludos!
-                    </pre>  </code>
+                        </pre>  </code>
 
                 </samp> 
 
@@ -352,7 +353,7 @@ public class parImpar {
             Palabra a buscar: la
             El fichero contiene un total de 5 palabras iguales que "la" .
             ¡Saludos!
-                     </pre> </code>
+                        </pre> </code>
                 </samp> 
 
                 <p>Comparando la palabra requerida con todas las que tiene el fichero podemos saber las veces que se repite.</p>
@@ -399,7 +400,7 @@ public class parImpar {
             Con 17 de suma.Rey de Corazones
             ¡La Banca se pasó, 27 !
             !Ganaste!
-                     </pre> </code>
+                        </pre> </code>
                 </samp> 
 
                 <p>Gracias a la clase juego podemos organizar la sucesión de funciones utilizando los objetos baraja, carta y tapete.</p>
@@ -516,7 +517,7 @@ public class parImpar {
                 Palabra secreta:  c  e  r  e  z  a 
                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ¡ESA ERA LA PALABRA,LE SALVASTE!
-                   </pre>   </code>
+                        </pre>   </code>
                 </samp> 
 
                 <p>Creando una palabra apartir de las letras solicitadas, la comparamos con la palabra secreta.</p>
@@ -600,7 +601,7 @@ public class parImpar {
             º-º-º-º-º--º-º-º-º-º-º-º-º-º-
             ¡El Jug2 ganó 800€! Con cereza
             ¡Saludoos!
-                    </pre>  </code>
+                        </pre>  </code>
                 </samp> 
 
                 <p>Gracias a la clase juego podemos organizar la sucesión de funciones utilizando los objetos jugador, ruleta y panel.</p>

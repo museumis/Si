@@ -38,14 +38,18 @@ header{
 }
 
 #cuerpo{  
-    position:relative;
-    top:30px;
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    overflow:hidden;
 }
 .articulo{
-    width:61%;
+    width:63%;
     margin-left: 19%;
 
     position:absolute;
+
+    box-sizing: border-box;
 }
 
 #listadoIzquierda,#listadoDerecha{
@@ -57,6 +61,7 @@ header{
     opacity:0;
     list-style: none;
 
+    box-sizing: border-box;
 }
 
 #listadoIzquierda{   
@@ -237,7 +242,7 @@ h2:hover{
 a{
     text-decoration:none; 
     color: #ED462F;
-   }
+}
 
 h3 a,h4 a{
     color:white;
@@ -294,10 +299,179 @@ var,time{
 #datosPersonales img{
     float: right;
     margin:5%;
-
 }
 
 #arContacto{
     opacity:0;
 }
 
+/*Responsive*/
+
+@media screen and (max-width:900px){
+    #contacto{
+        opacity:0;
+    }
+}
+
+@media screen and (max-height:630px){
+    #contacto{
+        opacity:0;
+    }
+}
+
+@media screen and (max-width:1300px){
+    #listadoIzquierda ul li{
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:930px){
+    #listadoIzquierda ul li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:750px){
+    #listadoIzquierda ul li{
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+}
+
+@media screen and (max-width:550px){
+
+    #listadoDerecha{
+        left: 20%;
+        top:25%;
+    }
+    #listadoDerecha ul{ 
+        display:flex;
+    }
+
+    #listadoDerecha ul li{ 
+        height: 70px;
+        margin-left: 45%;      
+        max-width: 200px;
+        float:right;
+    }
+
+    #listadoIzquierda{ 
+        left: 5%;
+        top:58%;
+        width:90%;    
+        overflow-x: scroll;
+    }
+
+    #listadoIzquierda ul { 
+        display:flex;
+    }
+
+    #listadoIzquierda ul li{ 
+        margin-left: 2%;      
+        max-width: 100px;
+        min-height: 50px;
+        float:right;
+    }
+
+    .articulo{
+        left: 2%;
+        top:85%;
+    }
+
+
+    h2{
+        height:90px;
+        width:110px;
+        left:9%;
+        font-size: 25px;
+        line-height: 35px;    
+    }
+}
+
+@media screen and (max-width:350px){
+
+    #listadoDerecha{
+        left: 5%;
+        top:20%;
+    }
+    #listadoDerecha ul{ 
+        display:flex;
+    }
+
+    #listadoDerecha ul li{ 
+        height: 70px;
+        margin-left: 45%;      
+        max-width: 200px;
+        float:right;
+    }
+
+    #listadoIzquierda{ 
+        left: 5%;
+        top:58%;
+        width:90%;    
+        overflow-x: scroll;
+    }
+
+    #listadoIzquierda ul { 
+        display:flex;
+    }
+
+    #listadoIzquierda ul li{ 
+        margin-left: 2%;      
+        max-width: 100px;
+        min-height: 50px;
+        float:right;
+    }
+
+    .articulo{
+        left: 5%;
+        top:95%;
+    }
+
+
+    h2{
+        height:50px;
+        width:80px;
+        margin-left: 5%;
+        font-size: 15px;
+        line-height: 35px;    
+    }
+}
+
+
+
+/*
+.articulo{
+    width:63%;
+    margin-left: 19%;
+
+    position:absolute;
+    
+    box-sizing: border-box;
+}
+
+#listadoIzquierda,#listadoDerecha{
+    color:white;
+    padding:0px;
+    margin:0px;
+
+    position: absolute;     
+    opacity:0;
+    list-style: none;
+
+    box-sizing: border-box;
+}
+
+#listadoIzquierda{   
+    width: 17%; 
+    left: 0px;  
+
+}
+
+#listadoDerecha{
+    width: 20%; 
+    right: 0px;
+    font-size: 25px;
+
+}*/
