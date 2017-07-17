@@ -30,10 +30,8 @@
                 <ul>
                     <li id="clickCondicional"> <h4>Condicionales</h4> </li>
                     <li id="click3enRaya"><h4>3 en Raya</h4></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
-                    <li><h5>algo</h5></li>
+                    <li id="clickTemperatura"><h4>Medidor Temperaturas</h4></li>
+                   
 
                 </ul>            
             </section>  
@@ -42,49 +40,6 @@
             <article class="articulo" id="duke">
                 <img src="imagenes/duke.gif" alt=""/>
             </article>
-
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
-            <!--            <article class="articulo">
-                            <h5><strong>Titulo</strong></h5>
-                            <time>2008-02-14 20:00</time>
-                            <p>
-                                Documento plantilla para mostrar un proyecto
-                            </p>
-                            <pre>
-                            <code>
-             Código del programa
-            
-                            </code>
-            
-                            </pre>
-            
-                            <p>   
-                                Explicación:<br />
-                                <var>VARIABLEE</var>
-            
-                                quis nostrud exercitatio ex ea commodo consequat. Duis aute irure <var>VARIABLEE</var> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
-                            <pre>
-                            <samp>
-                               
-                                SALIDA DEL PROGRAMA
-            
-            
-            
-                                Explicación:<br />
-                                <var>VARIABLEE</var>
-            
-                              
-              quis nostrud exercitatio ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                      </samp> </pre>   
-            
-                            <p>
-                                Explicacion final
-                            </p>
-                            <footer>by Ismael Martin (github)</footer>
-            
-                        </article>-->
 
             <!----------------------------------------------------------------------------------------------------------------------------->
 
@@ -107,7 +62,7 @@ public class parImpar {
 
     public static void main(String[] args) {
         System.out.println("¿Par o impar?");
-        if (pedirNumero("Introduce un numero: ") % 2 == 0) {
+        if (pedirNumero("Introduce un número: ") % 2 == 0) {
             System.out.println("Número par.");
         } else {
             System.out.println("Número impar.");
@@ -121,13 +76,13 @@ public class parImpar {
                 <samp>
                     <code> <pre> 
                     ¿Par o impar?
-                    Introduce un numero: 1
+                    Introduce un número: 1
                     Número impar.
                     </code> </pre> 
 
                     <code> <pre> 
                     ¿Par o impar?
-                    Introduce un numero: 2
+                    Introduce un número: 2
                     Número par.
                     </code> </pre> 
                 </samp> 
@@ -140,7 +95,6 @@ public class parImpar {
             </article>
 
             <!----------------------------------------------------------------------------------------------------------------------------->
-                      <!----------------------------------------------------------------------------------------------------------------------------->
 
             <article class="articulo" id="ar3r">
                 <h5><strong>3 en raya</strong></h5>
@@ -155,114 +109,218 @@ public class parImpar {
 
                 <samp>
                     <code> <pre>                    
-           @@@@@@@@@@@@@@@@@@@@@@
-           @ ¡3EnRaya OBJETOS! @@
-           @@@@@@@@@@@@@@@@@@@@@@
+                   @@@@@@@@@@@@@@@@@@@@@@
+                   @ ¡3EnRaya OBJETOS! @@
+                  @@@@@@@@@@@@@@@@@@@@@@
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
-¡Jugador comienza turno y juega la ficha 0!
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+        ¡Jugador comienza turno y juega la ficha 0!
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
-Fila : 1
-Columna : 1
-El jugador puso su ficha en [1][1] 
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 1
+        Columna : 1
+        El jugador puso su ficha en [1][1] 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
-     La máquina puso su ficha en [1][2] 
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+            La máquina puso su ficha en [1][2] 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 1
+        Columna : 2
+        Esa posicón está ocupada.
+        Fila : 2
+        Columna : 1
+        El jugador puso su ficha en [2][1] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+            La máquina puso su ficha en [3][1] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 2
+        Columna : 2
+        El jugador puso su ficha en [2][2] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
+            La máquina puso su ficha en [3][3] 
+                
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
+        Fila : 2
+        Columna : 3
+        El jugador puso su ficha en [2][3] 
+            
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
+        ~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
+        ~~~~~~   O   ~~~~~~   O   ~~~~~~   O   ~~~@@@a
+        ~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+        ~~~~~~~~~~~~~~~ ¡¡Ganaste!! ~~~~~~~~~~~~~
+        ~~~~~~~~~~ @@@@@@@@@@@@@@@@ ~~~~~~~~~~
+            
+                            </code> </pre> 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
-Fila : 1
-Columna : 2
-Esa posicón está ocupada.
-Fila : 2
-Columna : 1
-El jugador puso su ficha en [2][1] 
+                </samp> 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
-~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~       ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+                <p>Con la clases Tablero y Casilla podemos hacer un algorítmo que nos permita jugar al 3 en Raya contra el ordenador.</p>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
-     La máquina puso su ficha en [3][1] 
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
-~~~~~~   O   ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+                <footer>by Ismael Martin</footer>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
-Fila : 2
-Columna : 2
-El jugador puso su ficha en [2][2] 
+            </article>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
-~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
-~~~~~~   X   ~~~~~~       ~~~~~~       ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+            <!----------------------------------------------------------------------------------------------------------------------------->
+            
+              <!----------------------------------------------------------------------------------------------------------------------------->
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve la máquina ~~~~~~~~~~
-     La máquina puso su ficha en [3][3] 
+            <article class="articulo" id="artemp">
+                <h5><strong>Medidor Temperaturas</strong></h5>
+                <time>2017-07-15  08:00</time>
+                <p>
+Algoritmo en Java que obtiene la media y la mayores temperaturas en un mes rellenado automáticamente
+                </p>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
-~~~~~~   O   ~~~~~~   O   ~~~~~~       ~~~@@@a
-~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
+                <a href="https://github.com/dam1-imartinr01/medidorTemperaturas/tree/master/src/ejer07_t7_teperaturamediames" title="Repositorio Github" target="vtr">Repositorio en Github de un medidor de temperaturas.</a>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-   ~~~~~~~~~~ Mueve el jugador ~~~~~~~~~~
-Fila : 2
-Columna : 3
-El jugador puso su ficha en [2][3] 
+                <p>Salida del programa:</p>
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@aaa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@aa
-~~~~~~   O   ~~~~~~   X   ~~~~~~       ~~~@@@a
-~~~~~~   O   ~~~~~~   O   ~~~~~~   O   ~~~@@@a
-~~~~~~   X   ~~~~~~       ~~~~~~   X   ~~~@@@a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@a
-~~~~~~~~~~~~~~~ ¡¡Ganaste!! ~~~~~~~~~~~~~
-   ~~~~~~~~~~ @@@@@@@@@@@@@@@@ ~~~~~~~~~~
+                <samp>
+                    <code> <pre>                    
+            Bienvenido al medidor de temperaturas medias.
 
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 1
+
+            El mes ha sido rellenado con temperaturas
+
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 2
+
+            Viernes dia 0 : 31 grados
+            Sábado dia 1 : 9 grados
+            Domingo dia 2 : 44 grados
+            Lunes dia 3 : 22 grados
+            Martes dia 4 : 2 grados
+            Miércoles dia 5 : 5 grados
+            Jueves dia 6 : 17 grados
+            Viernes dia 7 : -1 grados
+            Sábado dia 8 : 19 grados
+            Domingo dia 9 : 37 grados
+            Lunes dia 10 : 19 grados
+            Martes dia 11 : 44 grados
+            Miércoles dia 12 : 37 grados
+            Jueves dia 13 : 14 grados
+            Viernes dia 14 : 13 grados
+            Sábado dia 15 : 8 grados
+            Domingo dia 16 : 39 grados
+            Lunes dia 17 : 10 grados
+            Martes dia 18 : 42 grados
+            Miércoles dia 19 : 20 grados
+            Jueves dia 20 : 21 grados
+            Viernes dia 21 : 3 grados
+            Sábado dia 22 : 19 grados
+            Domingo dia 23 : 35 grados
+            Lunes dia 24 : 9 grados
+            Martes dia 25 : 11 grados
+            Miércoles dia 26 : 27 grados
+            Jueves dia 27 : 0 grados
+            Viernes dia 28 : 25 grados
+            Sábado dia 29 : 21 grados
+                
+
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 3
+                
+            La temperadura media es 20.066668 grados.
+                
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 4
+                
+            El día o dias más calurosos fueron: 
+            El Domingo dia 2 con una temperatura de 44 grados.
+            El Martes dia 11 con una temperatura de 44 grados.
+                
+            Introduce 1 para rellenar las temperaturas:
+            Introduce 2 para mostrar las temperaturas:
+            Introduce 3 para mostrar la temperatura media:
+            Introduce 4 para ver las temperaturas más altas:
+            Introduce 5 para salir:
+            Opcion: 5
+            ¡Saludos!
                     </code> </pre> 
 
                 </samp> 
 
-                <p>Con las clases Tablero y Casilla podemos hacer funcional un algorítmo que nos permita jugar al 3 en Raya contra el ordenador.</p>
-
+  <p>Con la clase Dia podemos hacer un algorítmo que nos permita hacer cálculos con un array compuesto de objetos de dicha clase.</p>
 
                 <footer>by Ismael Martin</footer>
 
