@@ -40,6 +40,7 @@ header{
 #cuerpo{  
     width: 100%;
     max-width: 1350px;
+    min-width:350px;
     margin: auto;
     overflow:hidden;
 }
@@ -439,39 +440,3 @@ var,time{
     }
 }
 
-
-
-/*
-.articulo{
-    width:63%;
-    margin-left: 19%;
-
-    position:absolute;
-    
-    box-sizing: border-box;
-}
-
-#listadoIzquierda,#listadoDerecha{
-    color:white;
-    padding:0px;
-    margin:0px;
-
-    position: absolute;     
-    opacity:0;
-    list-style: none;
-
-    box-sizing: border-box;
-}
-
-#listadoIzquierda{   
-    width: 17%; 
-    left: 0px;  
-
-}
-
-#listadoDerecha{
-    width: 20%; 
-    right: 0px;
-    font-size: 25px;
-
-}*/
