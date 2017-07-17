@@ -31,25 +31,30 @@ function transicion(nombreCapa) {
 //En esta funcion se ocultan todos los artículos y se muestra el articulo del id que se recibe en la variable articulo;
 function ejecutarArticulos(articulo) {
     document.querySelector("#mariposa").style.opacity = 0;
+    document.querySelector("#mariposa").style.zIndex = 0;
+
     document.querySelector("#datosPersonales").style.opacity = 0;
+    document.querySelector("#datosPersonales").style.zIndex = 0;
+
     document.querySelector("#queSe").style.opacity = 0;
+    document.querySelector("#queSe").style.zIndex = 0;
+
     document.querySelector("#arContacto").style.opacity = 0;
-
-
+    document.querySelector("#arContacto").style.zIndex = 0;
 
     document.querySelector(articulo).style.opacity = 1;
-
+    document.querySelector(articulo).style.zIndex = 1;
 
 }
 ;
 
 
 window.onload = function () {
-    
-     document.querySelector("#sobreMi").onclick = function () {
+
+    document.querySelector("#sobreMi").onclick = function () {
         mostrarI('listadoIzquierda');
     };
-    
+
 
     document.querySelector("#clickPersonal").onclick = function () {
         ejecutarArticulos("#datosPersonales");
@@ -59,7 +64,7 @@ window.onload = function () {
         ejecutarArticulos("#queSe");
 
     };
-    
+
     document.querySelector("#clickContacto").onclick = function () {
         ejecutarArticulos("#arContacto");
 

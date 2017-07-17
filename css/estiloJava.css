@@ -3,7 +3,6 @@
 }
 /*Estilo de los articulos en java*/
 #duke img{
-
     margin-left:40%;
     margin-top:5%;
 }
@@ -23,7 +22,6 @@
     /*overflow:auto;*/
 
 }
-
 arCont{
     opacity:0;
 }
