@@ -423,8 +423,8 @@ var,time{
     #listadoIzquierda ul li{ 
         margin-left: 5px;   
     }
-    
-     #listadoIzquierda ul li:hover{ 
+
+    #listadoIzquierda ul li:hover{ 
         text-align:left;   
     }
 
@@ -460,5 +460,12 @@ var,time{
     }
     html{
         padding: 0px;
+    }
+}
+
+@media screen and (max-width:450px){
+    
+     #listadoIzquierda ul li{ 
+      width: 1500px;  
     }
 }
