@@ -2,6 +2,9 @@
     opacity:1;   
 }
 /*Estilo de los articulos en java*/
+arCont{
+    opacity:0;
+}
 #duke img{
     margin-left:40%;
     margin-top:5%;
@@ -20,12 +23,7 @@
 #clickTemperatura{
     font-size:13.5px;
     /*overflow:auto;*/
-
 }
-arCont{
-    opacity:0;
-}
-
 #arBlack{
     opacity:0;
 }
