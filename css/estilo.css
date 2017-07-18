@@ -349,7 +349,7 @@ var,time{
 }
 
 @media screen and (min-width:4350px){
-    
+
     .articulo{margin-left: -800px;}
     #listadoIzquierda ul li{
         padding:0px;
@@ -422,10 +422,10 @@ var,time{
 
     #listadoIzquierda ul li{ 
         margin-left: 5px;   
-        line-height:none;
-        font-size:9px;
-        text-align:left;
-        word-wrap: break-word;
+    }
+    
+     #listadoIzquierda ul li:hover{ 
+        text-align:left;   
     }
 
     .articulo{
@@ -434,8 +434,9 @@ var,time{
         width:95%;
     }
     h2{
+        padding-left:0px;
         height:90px;
-        width:110px;
+        min-width:110px;
         left:10px;
         font-size: 20px;
         line-height: 35px;    
@@ -443,6 +444,16 @@ var,time{
 
     h3{
         padding-top: 20px;
+    }
+
+    h4{
+        width: 100%;
+        height: 100%;
+        line-height:none;
+        font-size:7px;
+        text-align:left;
+        word-wrap: break-word;
+
     }
     #cuerpo{
         padding:0px;
