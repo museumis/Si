@@ -336,18 +336,20 @@ var,time{
     #listadoIzquierda ul li{
         font-size: 12px;
         line-height: 15px;
+    }
 
-    }
-    
-       h2{
-        
+    h2{
         font-size: 22px;
-           
     }
+
+#otro {
+       display:none;
+    }
+
 }
 
 @media screen and (max-width:550px){
-
+   
     #listadoDerecha{
         left: 80px;
         top:80px;
@@ -359,7 +361,7 @@ var,time{
     #listadoDerecha ul li{ 
         height: 65px;
         margin-right: 5px; 
-        
+
     }
 
     #listadoIzquierda{ 
