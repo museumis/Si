@@ -338,46 +338,49 @@ var,time{
         line-height: 15px;
 
     }
+    
+       h2{
+        
+        font-size: 22px;
+           
+    }
 }
 
 @media screen and (max-width:550px){
 
     #listadoDerecha{
-        left: 20%;
-        top:25%;
+        left: 80px;
+        top:80px;
     }
     #listadoDerecha ul{ 
         display:flex;
     }
 
     #listadoDerecha ul li{ 
-        height: 70px;
-        margin-left: 45%;      
-        max-width: 200px;
-        float:right;
+        height: 65px;
+        margin-right: 5px; 
+        
     }
 
     #listadoIzquierda{ 
-        left: 5%;
-        top:58%;
+        left: 20px;
+        top:170px;
         width:90%;    
         overflow-x: scroll;
     }
 
     #listadoIzquierda ul { 
         display:flex;
+        list-style: none;
     }
 
     #listadoIzquierda ul li{ 
-        margin-left: 2%;      
-        max-width: 100px;
-        min-height: 50px;
-        float:right;
+        margin-left: 5px;      
     }
 
     .articulo{
-        left: 2%;
-        top:85%;
+        left: 40px;
+        top:280px;
     }
 
 
@@ -385,58 +388,13 @@ var,time{
         height:90px;
         width:110px;
         left:9%;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 35px;    
     }
-}
-
-@media screen and (max-width:350px){
-
-    #listadoDerecha{
-        left: 5%;
-        top:20%;
+    #cuerpo{
+        padding:0px;
     }
-    #listadoDerecha ul{ 
-        display:flex;
-    }
-
-    #listadoDerecha ul li{ 
-        height: 70px;
-        margin-left: 45%;      
-        max-width: 200px;
-        float:right;
-    }
-
-    #listadoIzquierda{ 
-        left: 5%;
-        top:58%;
-        width:90%;    
-        overflow-x: scroll;
-    }
-
-    #listadoIzquierda ul { 
-        display:flex;
-    }
-
-    #listadoIzquierda ul li{ 
-        margin-left: 2%;      
-        max-width: 100px;
-        min-height: 50px;
-        float:right;
-    }
-
-    .articulo{
-        left: 5%;
-        top:95%;
-    }
-
-
-    h2{
-        height:50px;
-        width:80px;
-        margin-left: 5%;
-        font-size: 15px;
-        line-height: 35px;    
+    html{
+        padding: 0px;
     }
 }
-
