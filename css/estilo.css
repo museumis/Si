@@ -312,34 +312,9 @@ var,time{
 /*Responsive*/
 
 
-
-@media screen and (min-width:1500px){
-    .articulo{    margin-left: 190px;
-    }
-}
-
-@media screen and (min-width:1700px){
-    .articulo{    margin-left: 130px;  
-    }
-}
-
-
-@media screen and (min-width:2000px){
-    .articulo{    margin-left: 30px; 
-    }
-}
-
-@media screen and (min-width:2200px){
-    .articulo{    margin-left: -80px;
-                   }
-}
-@media screen and (min-width:2550px){
-    .articulo{    margin-left: -120px;
-    }
-}
-
-@media screen and (min-width:2650px){
-    .articulo{    margin-left: -200px;
+@media screen and (max-width:900px){
+    #contacto{
+        opacity:0;
     }
 }
 @media screen and (max-width:1300px){
@@ -347,14 +322,45 @@ var,time{
         line-height: 20px;
     }
 }
-
-@media screen and (max-width:900px){
-    #contacto{
-        opacity:0;
+@media screen and (min-width:1500px){
+    .articulo{    margin-left: 190px;
     }
 }
+@media screen and (min-width:1700px){
+    .articulo{    margin-left: 130px;  
+    }
+}
+@media screen and (min-width:2000px){
+    .articulo{    margin-left: 30px; 
+    }
+}
+@media screen and (min-width:2200px){
+    .articulo{    margin-left: -80px;
+    }
+}
+@media screen and (min-width:2550px){
+    .articulo{    margin-left: -120px;
+    }
+}
+@media screen and (min-width:2650px){
+    .articulo{    margin-left: -200px;
+    }
+    h3{padding:55px;}
+}
 
-
+@media screen and (min-width:4350px){
+    
+    .articulo{margin-left: -800px;}
+    #listadoIzquierda ul li{
+        padding:0px;
+        line-height: 1px;
+    }
+    #listadoDerecha ul li{
+        padding:0px;
+        line-height: 1px;
+    }
+    h3{padding:55px;}
+}
 @media screen and (max-width:930px){
     #listadoIzquierda ul li{
         font-size: 14px;
@@ -415,12 +421,16 @@ var,time{
     }
 
     #listadoIzquierda ul li{ 
-        margin-left: 5px;      
+        margin-left: 5px;   
+        line-height:none;
+        font-size:9px;
+        text-justify:auto;
     }
 
     .articulo{
-        left: 40px;
+        left:-60px;
         top:280px;
+        width:90%;
     }
     h2{
         height:90px;
