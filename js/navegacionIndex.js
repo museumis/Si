@@ -50,7 +50,7 @@ function ejecutarArticulos(articulo) {
 
 
 window.onload = function () {
-
+   
     document.querySelector("#sobreMi").onclick = function () {
         mostrarI('listadoIzquierda');
     };
