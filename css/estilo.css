@@ -343,11 +343,12 @@ var,time{
     }
 
 #otro {
-       opacity:1;
-       color:red;
+      display:none;
        
-       float:none;
-       
+    }
+    
+     h3{
+        padding-top: 20px;
     }
 
 }
@@ -357,9 +358,12 @@ var,time{
     #listadoDerecha{
         left: 80px;
         top:80px;
+        line-height: 15px;
+       
     }
     #listadoDerecha ul{ 
         display:flex;
+        
     }
 
     #listadoDerecha ul li{ 
@@ -388,14 +392,16 @@ var,time{
         left: 40px;
         top:280px;
     }
-
-
     h2{
         height:90px;
         width:110px;
-        left:9%;
+        left:10px;
         font-size: 20px;
         line-height: 35px;    
+    }
+    
+    h3{
+        padding-top: 20px;
     }
     #cuerpo{
         padding:0px;
