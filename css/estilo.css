@@ -424,13 +424,14 @@ var,time{
         margin-left: 5px;   
         line-height:none;
         font-size:9px;
-        text-justify:auto;
+        text-align:left;
+        word-wrap: break-word;
     }
 
     .articulo{
-        left:-60px;
+        left:-50px;
         top:280px;
-        width:90%;
+        width:95%;
     }
     h2{
         height:90px;
