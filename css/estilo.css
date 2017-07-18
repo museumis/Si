@@ -343,7 +343,11 @@ var,time{
     }
 
 #otro {
-       display:none;
+       opacity:1;
+       color:red;
+       
+       float:none;
+       
     }
 
 }
