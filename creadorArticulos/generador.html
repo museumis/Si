@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>generador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            textarea{width:200px;
+                     height: 100px;
+                     padding:0;
+            }
+        </style>
+    </head>
+    <body>
+        <!--<form>-->
+        <div id="entrada">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th></th>  
+                        <th>Salida</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><label>Id: </label></td>  
+                        <td><input id="id" type="Text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Título: </label></td>  
+                        <td><input id="titulo" type="Text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Fecha:</label></td>  
+                        <td><input id="fecha" type="text" value="2017-07-17 09:00"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Descripcion: </label></td>  
+                        <td><textarea id="descrip">
+                           
+                            </textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Título url: </label></td>  
+                        <td><textarea id="tituloUrl"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Url Github: </label></td>  
+                        <td><input type="url" id="url"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>SalidaPrograma: </label></td>  
+                        <td><textarea id="salidaPro"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Descripcion Final: </label></td>  
+                        <td><textarea id="descripFinal">
+                           
+                            </textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label>NombreListaIzquierda: </label></td>  
+                        <td><input id="nomListaIzquierda" type="Text"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Nombreclick: </label></td>  
+                        <td><input id="nombreClick" type="Text"></td>
+                    </tr>
+                                        
+                    <tr>
+                        <td><label>Enviar: </label></td>  
+                        <td><input id="enviar" type="submit" ></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--</form>-->
+        </div>
+        
+        
+        <div><pre id="salida"></pre></div>
+
+
+
+
+
+
+        <script>
+
+            function articulo() {
+
+            var texto = " \n\
+        &lt;article class='articulo' id='" + document.querySelector("#id").value + "'&gt;\n\
+        &lt;h5&gt;&lt;strong&gt;" + document.querySelector("#titulo").value + "&lt;/strong&gt;&lt;/h5&gt;\n\
+        &lt;time&gt;" + document.querySelector("#fecha").value + "&lt;/time&gt;\n\
+        &lt;p&gt;" + document.querySelector("#descrip").value + "&lt;/p&gt;\n\
+         &lt;a href='" + document.querySelector("#url").value + "' title='Repositorio Github' target='vtr'&gt;" + document.querySelector("#tituloUrl").value + "&lt;/a&gt; \n\
+        &lt;p&gt;" + "Salidad del programa: " + "&lt;/p&gt;\n\
+        &lt;samp&gt;&lt;code&gt;&lt;pre&gt;" + document.querySelector("#salidaPro").value + "  &lt;/code&gt;&lt;/pre&gt;&lt;/samp&gt; \n\
+        &lt;p&gt;" + document.querySelector("#descripFinal").value + "&lt;/p&gt;\n\
+        &lt;footer&gt;by Ismael Martin&lt;/footer&gt; \n\
+        &lt;/article&gt;\n\
+\n\
+\n\
+-----------------------------------------------------------------------------\n\
+\n\             &lt;li id='" + document.querySelector("#nombreClick").value + "'&gt;&lt;h4&gt;" + document.querySelector('#nomListaIzquierda').value + "&lt;/h4&gt;&lt;/li&gt;\n\
+\n\-----------------------------------------------------------------------------\n\
+                document.querySelector('#" + document.querySelector("#nombreClick").value + "').onclick = function () {ejecutarArticulos('#" + document.querySelector("#id").value + "');};\n\
+\n\
+\n\             document.querySelector('#" + document.querySelector("#id").value + "').style.opacity = 0;\n\
+                document.querySelector('#" + document.querySelector("#id").value + "').style.zIndex = 0;\n\
+\n\-----------------------------------------------------------------------------\n\
+\n\             #" + document.querySelector('#id').value +"{opacity:0;}";
+                    return texto;
+            }
+            window.onload = function () {
+
+            document.querySelector("#enviar").onclick = function () {
+
+            document.querySelector("#salida").innerHTML = articulo();
+            };
+            };
+        </script>
+    </body>
+</html>
