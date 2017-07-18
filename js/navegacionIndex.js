@@ -50,7 +50,9 @@ function ejecutarArticulos(articulo) {
 
 
 window.onload = function () {
-   
+
+    ejecutarArticulos("#mariposa");
+    
     document.querySelector("#sobreMi").onclick = function () {
         mostrarI('listadoIzquierda');
     };
