@@ -110,6 +110,11 @@ h2{
     line-height: 110px;
 }
 
+#arania img{
+    width: 60px;
+    height: 60px;
+}
+
 
 /*h3 listado derecha,h4 listado izquierda, h5 titulos artículo*/
 h3,h4,h5{
@@ -464,8 +469,8 @@ var,time{
 }
 
 @media screen and (max-width:480px){
-    
-     #listadoIzquierda ul li{ 
-      min-width: 130px;  
+
+    #listadoIzquierda ul li{ 
+        min-width: 130px;  
     }
 }
