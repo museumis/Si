@@ -1,0 +1,41 @@
+#listadoIzquierda,#listadoDerecha{      
+    opacity:1;   
+}
+/*Formulario*/
+
+table{
+    width:80%;
+}
+td, th{
+   
+    text-align:center;
+}
+input,textArea,button{
+    margin-left:25px;
+    border: #F19ABD solid 2px;
+    width:80%;
+}
+
+#enviar{width: 100%
+}
+
+/*Estilo de los articulos en web*/
+#imgIdiomas img{
+    width:50%;
+    margin-left:23.5%;
+    margin-top: 3%;
+}
+
+#artCrearArticulo{opacity:0;}
+
+#clickGenerar{
+    font-size:14.5px;
+}
+
+#clickGenerar:hover{
+    font-size:14.5px;
+}
+
+
+
+

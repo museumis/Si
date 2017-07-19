@@ -6,8 +6,9 @@ arCont{
     opacity:0;
 }
 #duke img{
-    margin-left:40%;
-    margin-top:5%;
+    width:25%;
+    margin-left:38%;
+    margin-top:3%;
 }
 #arIf{
     opacity:0;
@@ -22,7 +23,6 @@ arCont{
 
 #clickTemperatura{
     font-size:13.5px;
-    /*overflow:auto;*/
 }
 #arBlack{
     opacity:0;
@@ -38,7 +38,6 @@ arCont{
 
 #clickRule{
     font-size:15.5px;
-    /*overflow:auto;*/
 }
 #clickRule:hover{
     font-size:14.5px;

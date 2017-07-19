@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>Web | Museumis</title>
+        <meta charset="utf-8">
+            <meta name="author" content="Ismael Martín Ramírez" />
+            <meta name="description" content="Currículo vitae de Ismael. Programación en Java, html, css, javascript y SQL" />        
+            <meta name="generator" content="NetBeans IDE 8.1" />
+            <meta name="keywords" content="java, css, html,javascript," />
+            <meta name="keywords" content=" codigo, sql, programacion" />      
+            <meta name="HandheldFriendly" content="True" />
+            <meta name="MobileOptimized" content="320" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            <link rel="icon" type="image/png" href="imagenes/mariposa2.png" />
+
+            <link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+            <link rel="stylesheet" type="text/css" href="css/estiloWeb.css" media="all" />
+
+    </head>
+    <body>
+        <div id="cuerpo">
+            <header>
+                <a title="logo" href="index.html"><h1>Inicio<br /><span id="arania"><img src="imagenes/araña.gif" alt="Gif de una araña" title="GifAraña"/></span></h1></a>
+
+                <a title="Sobre mi..." href="sobreMi.html" ><h2 id="sobreMi">Sobre mi</h2></a>
+                <h2 title="Mis proyectos" id="proyectos">Proyectos</h2>
+
+                <h2 title="otros" id="otro">oculto</h2>
+            </header>
+
+
+
+            <section id="listadoIzquierda">
+                <ul>
+                    <li id='clickGenerar'><h4>Generador Artículos</h4></li>
+
+                </ul>            
+            </section>  
+
+            <section id="listadoDerecha">
+                <ul>
+                    <li id="clikJava"><a href="java.html"><h3>Java</h3></a></li>
+                    <li><h3>Web</h3></li>                 
+                    <li><h3>SQL</h3></li>
+
+
+                </ul>            
+            </section>
+
+
+
+            <!--
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+            -->                          
+            <article class="articulo" id="imgIdiomas">
+                <h5><img src="imagenes/idiomasWeb.png" title="Imagen de los iconos de html5, css y JS" alt="iconos de html5, css y JS"/></h5>
+            </article>
+
+            <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+            <article class='articulo' id='artCrearArticulo'>
+                <h5><strong>Generador de articulos</strong></h5>
+                <time>2017-07-17 09:00</time>
+                <p>Algoritmo para obtener el código Html,Css y JS que se necesita para publicar un artículo en esta web.                </p>
+                <a href='https://github.com/museumis/si/blob/master/creadorArticulos/generador.html' title='Repositorio Github' target='vtr'>Repositorio en GitHub del generador de articulos.</a> 
+
+
+
+
+                <div id="entrada">
+                    <!--</form>-->
+
+                    <fieldset>
+                        <legend>Datos del artículo</legend> 
+                        <table>
+
+                            <thead>
+                                <tr>
+                                    <th></th>  
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td><label>Id: </label></td>  
+                                    <td><input id="id" type="Text"></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Título: </label></td>  
+                                    <td><input id="titulo" type="Text"></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Fecha:</label></td>  
+                                    <td><input id="fecha" type="text" value="2017-07-17 09:00"></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label>Descripcion: </label></td>  
+                                    <td><textarea id="descrip">
+                           
+                                        </textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Título url: </label></td>  
+                                    <td><textarea id="tituloUrl"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Url Github: </label></td>  
+                                    <td><input type="url" id="url"></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label>SalidaPrograma: </label></td>  
+                                    <td><textarea id="salidaPro"></textarea></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label>Descripcion Final: </label></td>  
+                                    <td><textarea id="descripFinal">
+                           
+                                        </textarea></td>
+                                </tr>
+
+                                <tr>
+                                    <td><label>NombreLista: </label></td>  
+                                    <td><input id="nomListaIzquierda" type="Text"></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Nombreclick: </label></td>  
+                                    <td><input id="nombreClick" type="Text"></td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td><input id="enviar" value="Generar" type="button"></td>                  
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </fieldset>
+                    <!--</form>-->
+                </div>
+<pre id="salida"><code><samp></samp></code></pre>
+
+                
+
+
+
+
+
+                <p>Mediante el valor en los formularios y una inserción de codigo en el div salida, podemos obtener el código que necesitamos para crear un artículo.                       </p>
+                <footer>by Ismael Martin</footer> 
+            </article>
+
+            <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+        </div>
+
+        <footer>
+            <address title="Contacto" id="contacto">
+                Ismael Martín <br />
+                Desarrollador de Apps Multiplataforma<br />
+                <a href="mailto:imartinr01@informatica.iesvalledeljerteplasencia.es" title="Correo del creador de la página.">Enviame un correo</a>
+            </address>
+        </footer>        
+        <script src="js/navegacionWeb.js" type="text/javascript"></script>
+    </body>
+</html>

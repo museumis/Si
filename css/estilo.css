@@ -45,7 +45,7 @@ header{
     overflow:hidden;
 }
 .articulo{
-    width: 65.5%;
+    width: 63.5%;
     margin-left: 18%;
     padding-top: 15px;
     position:absolute;
@@ -263,7 +263,7 @@ h5 a{
 /*Artículo*/
 
 .articulo pre{
-    width:95%;
+    width:96%;
     height:100%;
     padding:15px 10px 25px 10px;
     overflow:auto;
