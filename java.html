@@ -6,13 +6,12 @@
         <meta charset="utf-8">
         <meta name="author" content="Ismael Martín Ramírez" />
         <meta name="description" content="Currículo vitae de Ismael. Programación en Java, html, css, javascript y SQL" />        
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="generator" content="NetBeans IDE 8.1" />
         <meta name="keywords" content="java, css, html,javascript," />
         <meta name="keywords" content=" codigo, sql, programacion" />      
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
              
              <link rel="icon" type="image/png" href="imagenes/mariposa2.png">
        
@@ -26,7 +25,7 @@
 
         <div id="cuerpo">
             <header>
-                 <a title="logo" href="index.html"><h1>Inicio  <br /> <img src="imagenes/araña.gif" alt="" width="60px" height="60px"/> </h1></a>
+          <a title="logo" href="index.html"><h1>Inicio<br /><span id="arania"><img src="imagenes/araña.gif" alt="Gif de una araña" title="GifAraña"/></span></h1></a>
             
                 <a title="Sobre mi..." href="sobreMi.html" ><h2 id="sobreMi">Sobre mi</h2></a>
                 <h2 title="Mis proyectos" id="proyectos">Proyectos</h2>
@@ -50,21 +49,23 @@
 
                 </ul>            
             </section>  
-            <!-- ------------------------------------------------------------------------------------------------------------------------- -->
-
+  <!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->                          
             <article class="articulo" id="duke">
-                <img src="imagenes/duke.gif" title="Imagen de Duke" alt="Imqagen de Duke"/>
+                <h5><img src="imagenes/duke.gif" title="Imagen de Duke" alt="Imqagen de Duke"/></h5>
             </article>
             
-                        <!-- ------------------------------------------------------------------------------------------------------------------------- -->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
             <article class='articulo' id='artEmpr'>
         <h5><strong>Empresas con empleados</strong></h5>
         <time>2017-07-17 09:00</time>
         <p>Algoritmo que guarda en un ArrayList empresas con sus correspondientes empleados.                     </p>
          <a href='https://github.com/museumis/empleadosPorEmpresa/tree/master/src/ejer15_t10_empresaclaseconarray' title='Repositorio Github' target='vtr'>Repositorio del algoritmo para almacenar empresas.</a> 
         <p>Salidad del programa: </p>
-        <samp><code><pre>
+     <pre><code><samp>
             Programa para registrar notas de alumnos
             -------------------------------
             ¿Qué desea hacer?
@@ -149,21 +150,22 @@
             5 - Salir del programa
             Opción: 5
             -------------------------------
-            !Saludos!  </code></pre></samp> 
+            !Saludos! </samp></code></pre> 
         <p>Gracias a la clase empresa y empleados podemos crear objetos y operar ellos.</p>
         <footer>by Ismael Martin</footer> 
         </article>
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
             <article class="articulo" id="arIf">
                 <h5><strong>¿Par o impar?</strong></h5>
-                <time>2017-07-14  13:00</time>
+                <time>2017-07-14 13:00</time>
                 <p>
                     Algoritmo que nos muestra si un número es par o impar.
                 </p>
 
-                <code><pre> 
+               <pre><code>
 import java.util.Scanner;
 
 public class parImpar {
@@ -182,23 +184,21 @@ public class parImpar {
         }
     }
 }
-                </code> </pre> 
+                 </code></pre>
 
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre> 
+                     <pre><code><samp>
                     ¿Par o impar?
                     Introduce un número: 1
                     Número impar.
-                        </pre> </code>  
+                     </samp></code></pre> 
 
-                    <code> <pre> 
+                     <pre><code><samp>
                     ¿Par o impar?
                     Introduce un número: 2
                     Número par.
-                        </pre></code> 
-                </samp> 
+                     </samp></code></pre> 
 
                 <p>Obteniendo el resto de una división mediante el signo <var>%</var> y sometiendo el resultado a un condicional <var>If</var> y <var>else</var> obtenemos si el número es par o impar.</p>
 
@@ -206,13 +206,14 @@ public class parImpar {
                 <footer>by Ismael Martin</footer>
 
             </article>
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
             
 
             <article class="articulo" id="arConT">
                 <h5><strong>Contar palabras</strong></h5>
-                <time>2017-07-17  09:00</time>
+                <time>2017-07-17 09:00</time>
                 <p>
                     Algoritmo que nos pide una palabra y cuenta las veces que se repite en el fichero.
                 </p>
@@ -221,16 +222,15 @@ public class parImpar {
                 </p>
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre> 
+                     <pre><code><samp>
+
                            Lector de Palabras
                           --------------------
             Nombre del fichero: (quijote.txt)quijote.txt
             Palabra a buscar: la
             El fichero contiene un total de 5 palabras iguales que "la" .
             ¡Saludos!
-                        </pre> </code>
-                </samp> 
+                    </samp></code></pre> 
 
                 <p>Comparando la palabra requerida con todas las que tiene el fichero podemos saber las veces que se repite.</p>
 
@@ -239,11 +239,12 @@ public class parImpar {
 
             </article>
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
             <article class="articulo" id="ar3r">
                 <h5><strong>3 en raya</strong></h5>
-                <time>2017-07-15  08:00</time>
+                <time>2017-07-15 08:00</time>
                 <p>
                     Algoritmo del juego 3 en raya en Java orientado a objetos. Juego contra el ordenador.
                 </p>
@@ -252,8 +253,8 @@ public class parImpar {
                 </p>
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre>                    
+                   <pre><code><samp>
+                    
                    @@@@@@@@@@@@@@@@@@@@@@
                    @ ¡3EnRaya OBJETOS! @@
                   @@@@@@@@@@@@@@@@@@@@@@
@@ -356,9 +357,7 @@ public class parImpar {
         ~~~~~~~~~~~~~~~ ¡¡Ganaste!! ~~~~~~~~~~~~~
         ~~~~~~~~~~ @@@@@@@@@@@@@@@@ ~~~~~~~~~~
             
-                        </pre></code> 
-
-                </samp> 
+               </samp></code></pre>  
 
                 <p>Con la clases Tablero y Casilla podemos hacer un algorítmo que nos permita jugar al 3 en Raya contra el ordenador.</p>
 
@@ -367,12 +366,13 @@ public class parImpar {
 
             </article>
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
 
             <article class="articulo" id="artemp">
                 <h5><strong>Medidor Temperaturas</strong></h5>
-                <time>2017-07-15  08:00</time>
+                <time>2017-07-15 08:00</time>
                 <p>
                     Algoritmo en Java que obtiene la media y la mayores temperaturas en un mes rellenado automáticamente
                 </p>
@@ -381,8 +381,8 @@ public class parImpar {
                 </p>
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre>                    
+                     <pre><code><samp>
+                   
             Bienvenido al medidor de temperaturas medias.
 
             Introduce 1 para rellenar las temperaturas:
@@ -460,9 +460,7 @@ public class parImpar {
             Introduce 5 para salir:
             Opcion: 5
             ¡Saludos!
-                        </pre>  </code>
-
-                </samp> 
+              </samp></code></pre> 
 
                 <p>Con la clase Dia podemos hacer un algorítmo que nos permita hacer cálculos con un array compuesto de objetos de dicha clase.</p>
 
@@ -470,12 +468,13 @@ public class parImpar {
 
             </article>
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
 
             <article class="articulo" id="arBlack">
                 <h5><strong>BlackJack</strong></h5>
-                <time>2017-07-17  09:00</time>
+                <time>2017-07-17 09:00</time>
                 <p>
                     Algoritmo del juego BlackJack.
                 </p>
@@ -484,8 +483,8 @@ public class parImpar {
                 </p>
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre> 
+                     <pre><code><samp>
+ 
             ------------------
             !BLACK JACK!
             ------------------
@@ -508,8 +507,7 @@ public class parImpar {
             Con 17 de suma.Rey de Corazones
             ¡La Banca se pasó, 27 !
             !Ganaste!
-                        </pre> </code>
-                </samp> 
+                       </samp></code></pre> 
 
                 <p>Gracias a la clase juego podemos organizar la sucesión de funciones utilizando los objetos baraja, carta y tapete.</p>
 
@@ -518,11 +516,12 @@ public class parImpar {
 
             </article>
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
             <article class="articulo" id="arAho">
                 <h5><strong>Ahorcado</strong></h5>
-                <time>2017-07-17  09:00</time>
+                <time>2017-07-17 09:00</time>
                 <p>
                     Algoritmo del juego el ahorcado.<br />
                 </p>
@@ -530,8 +529,8 @@ public class parImpar {
 
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre> 
+                     <pre><code><samp>
+
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                              |---¬|¬           
                              |    |          
@@ -625,8 +624,7 @@ public class parImpar {
                 Palabra secreta:  c  e  r  e  z  a 
                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ¡ESA ERA LA PALABRA,LE SALVASTE!
-                        </pre>   </code>
-                </samp> 
+                      </samp></code></pre> 
 
                 <p>Creando una palabra apartir de las letras solicitadas, la comparamos con la palabra secreta.</p>
 
@@ -635,12 +633,13 @@ public class parImpar {
 
             </article>
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
 
             <article class="articulo" id="arRule">
                 <h5><strong>Ruleta de la fortuna</strong></h5>
-                <time>2017-07-17  09:00</time>
+                <time>2017-07-17 09:00</time>
                 <p>
                     Algoritmo del juego de la ruleta de la fortuna.
                 </p>
@@ -649,8 +648,8 @@ public class parImpar {
                 </p>
                 <p>Salida del programa:</p>
 
-                <samp>
-                    <code> <pre> 
+                     <pre><code><samp>
+ 
             º-º-º-º-º--º-º-º-º-º-º-º-º-º-
                La Ruleta de la fortuna  
             º-º-º-º-º--º-º-º-º-º-º-º-º-º-
@@ -709,19 +708,19 @@ public class parImpar {
             º-º-º-º-º--º-º-º-º-º-º-º-º-º-
             ¡El Jug2 ganó 800€! Con cereza
             ¡Saludoos!
-                        </pre>  </code>
-                </samp> 
+                       </samp></code></pre> 
 
                 <p>Gracias a la clase juego podemos organizar la sucesión de funciones utilizando los objetos jugador, ruleta y panel.</p>
 
                 <footer>by Ismael Martin</footer>
 
             </article>            
-            <!----------------------------------------------------------------------------------------------------------------------------->
-
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->  
             <!--            <article class="articulo" id="  ">
                             <h5><strong>Titulo</strong></h5>
-                            <time>2017-07-17  09:00</time>
+                            <time>2017-07-17 09:00</time>
                             <p>
                                 inicio
                             </p>
@@ -731,7 +730,7 @@ public class parImpar {
             
                             <samp>
                                 <code> <pre> 
-                                      --------------------
+                                     
                      
                                 </code> </pre> 
                             </samp> 
@@ -743,10 +742,12 @@ public class parImpar {
             
                         </article>-->
 
-            <!----------------------------------------------------------------------------------------------------------------------------->
-            <section id="listadoDerecha">
+<!--
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                          
+  -->       
+  <section id="listadoDerecha">
                 <ul>
-                    <a href="java.html"><li id="clikJava"><h3>Java</h3></li></a>
+                 <li id="clikJava"><a href="java.html"><h3>Java</h3></a></li>
                     <li><h3>Web</h3></li>                 
                     <li><h3>SQL</h3></li>
 
