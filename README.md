@@ -1,2 +1,2 @@
 # Currículo Vitae
-Repositorio para mi web personal
+Repositorio para mi web personal.
