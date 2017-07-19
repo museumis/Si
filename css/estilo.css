@@ -463,7 +463,7 @@ var,time{
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:480px){
     
      #listadoIzquierda ul li{ 
       min-width: 130px;  
