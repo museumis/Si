@@ -45,6 +45,10 @@ arCont{
 }
 
 #artEmpr{opacity:0;}
+#artTraductor{opacity:0;}
+#artCalculadora{opacity:0;}
+#artFormularioJava{opacity:0;}
+#artAgenda{opacity:0;}
 
 @media screen and (max-width:930px){
     #duke{

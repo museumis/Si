@@ -31,6 +31,19 @@ function ejecutarArticulos(articulo) {
     document.querySelector('#artEmpr').style.zIndex = 0;
 
 
+    document.querySelector('#artTraductor').style.opacity = 0;
+    document.querySelector('#artTraductor').style.zIndex = 0;
+    
+    document.querySelector('#artCalculadora').style.opacity = 0;
+                document.querySelector('#artCalculadora').style.zIndex = 0;
+                
+                
+             document.querySelector('#artFormularioJava').style.opacity = 0;
+                document.querySelector('#artFormularioJava').style.zIndex = 0;
+                
+                document.querySelector('#artAgenda').style.opacity = 0;
+                document.querySelector('#artAgenda').style.zIndex = 0;
+
     document.querySelector(articulo).style.opacity = 1;
     document.querySelector(articulo).style.zIndex = 1;
 
@@ -73,9 +86,13 @@ window.onload = function () {
     document.querySelector('#clickEmpresas').onclick = function () {
         ejecutarArticulos('#artEmpr');
     };
-
-
-
+    document.querySelector('#clickTraductor').onclick = function () {
+        ejecutarArticulos('#artTraductor');
+    };
+    
+    document.querySelector('#clickCalculadora').onclick = function () {ejecutarArticulos('#artCalculadora');};
+document.querySelector('#clickFormularioJava').onclick = function () {ejecutarArticulos('#artFormularioJava');};
+document.querySelector('#clickAgenda').onclick = function () {ejecutarArticulos('#artAgenda');};
 
 };
 
