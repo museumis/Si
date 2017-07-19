@@ -30,7 +30,7 @@ function articulo() {
  &lt;p&gt;" + document.querySelector("#descripFinal").value + "&lt;/p&gt;\n\
  &lt;footer&gt;by Ismael Martin&lt;/footer&gt; \n\
  &lt;/article&gt;\n\
-\n\&lt;!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --&gt;\n\
+\n\&lt;!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ --&gt;\n\
 \n\ &lt;li id='" + document.querySelector("#nombreClick").value + "'&gt;&lt;h4&gt;" + document.querySelector('#nomListaIzquierda').value + "&lt;/h4&gt;&lt;/li&gt;\n\
 \n\&lt;!-- %JS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% --&gt;\n\
  document.querySelector('#" + document.querySelector("#nombreClick").value + "').onclick = function () {ejecutarArticulos('#" + document.querySelector("#id").value + "');};\n\
