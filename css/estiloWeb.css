@@ -1,0 +1,30 @@
+#listadoIzquierda,#listadoDerecha{      
+    opacity:1;   
+}
+/*Estilo de los articulos en java*/
+#imgIdiomas img{
+    width:50%;
+    margin-left:23.5%;
+    margin-top: 3%;
+}
+
+input,textArea,meter,button,select,progress{
+    margin-left:25px;
+    border: #F19ABD solid 2px;
+
+}
+form {
+    width:460px;
+    margin-left:23%;
+}
+caption{
+    border-bottom:mediumorchid solid 1px;
+    width:100%;
+
+}
+
+td, th{
+    width: 100px;
+    margin-left:10px;
+    margin-right:10px;
+}

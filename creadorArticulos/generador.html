@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>generador</title>
-        <meta charset="UTF-8">
+        <title>Generador | Museumis</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Ismael Martín Ramírez" />
+        <meta name="description" content="Currículo vitae de Ismael. Programación en Java, html, css, javascript y SQL" />        
+        <meta name="generator" content="NetBeans IDE 8.1" />
+        <meta name="keywords" content="java, css, html,javascript," />
+        <meta name="keywords" content=" codigo, sql, programacion" />      
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" href="imagenes/mariposa2.png">
 
         <style>
             textarea{width:200px;
                      height: 100px;
                      padding:0;
             }
+            
+               input,textArea,meter,button,select,progress{
+                margin-left:25px;
+                border: #F19ABD solid 2px;
+
+            }
+            form {
+                width:460px;
+                margin-left:23%;
+            }
+           
+
+            td, th{
+                width: 100px;
+                margin-left:10px;
+                margin-right:10px;
+            }
         </style>
-    </head>
+
+
+    </head> 
     <body>
         <!--<form>-->
         <div id="entrada">
@@ -74,7 +102,7 @@
                         <td><label>Nombreclick: </label></td>  
                         <td><input id="nombreClick" type="Text"></td>
                     </tr>
-                                        
+
                     <tr>
                         <td><label>Enviar: </label></td>  
                         <td><input id="enviar" type="submit" ></td>
@@ -83,13 +111,13 @@
             </table>
             <!--</form>-->
         </div>
-        
-        
+
+
         <div><pre id="salida"></pre></div>
 
 
 
-<!--<pre><code><samp> </samp></code></pre>--> 
+        <!--<pre><code><samp> </samp></code></pre>--> 
 
 
         <script>
@@ -119,8 +147,8 @@
 \n\             document.querySelector('#" + document.querySelector("#id").value + "').style.opacity = 0;\n\
                 document.querySelector('#" + document.querySelector("#id").value + "').style.zIndex = 0;\n\
 \n\-----------------------------------------------------------------------------\n\
-\n\             #" + document.querySelector('#id').value +"{opacity:0;}";
-                    return texto;
+\n\             #" + document.querySelector('#id').value + "{opacity:0;}";
+            return texto;
             }
             window.onload = function () {
 
