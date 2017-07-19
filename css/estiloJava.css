@@ -23,7 +23,6 @@ arCont{
 
 #clickTemperatura{
     font-size:13.5px;
-    /*overflow:auto;*/
 }
 #arBlack{
     opacity:0;
@@ -39,7 +38,6 @@ arCont{
 
 #clickRule{
     font-size:15.5px;
-    /*overflow:auto;*/
 }
 #clickRule:hover{
     font-size:14.5px;
