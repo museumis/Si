@@ -14,6 +14,11 @@ function ejecutarArticulos(articulo) {
     document.querySelector('#artExtremadura').style.opacity = 0;
     document.querySelector('#artExtremadura').style.zIndex = 0;
 
+document.querySelector('#artCalculadora').style.opacity = 0;
+ document.querySelector('#artCalculadora').style.zIndex = 0;
+ 
+ document.querySelector('#artCurriculo').style.opacity = 0;
+ document.querySelector('#artCurriculo').style.zIndex = 0;
 
     document.querySelector(articulo).style.opacity = 1;
     document.querySelector(articulo).style.zIndex = 1;
@@ -70,7 +75,8 @@ window.onload = function () {
         ejecutarArticulos('#artExtremadura');
     };
 
-
+ document.querySelector('#clickCalculadora').onclick = function () {ejecutarArticulos('#artCalculadora');};
+  document.querySelector('#clickCurriculo').onclick = function () {ejecutarArticulos('#artCurriculo');};
 };
 
 
