@@ -1,6 +1,6 @@
 #listadoIzquierda,#listadoDerecha{      
     opacity:1;   
-       
+
 }
 /*Formulario*/
 
@@ -8,7 +8,7 @@ table{
     width:80%;
 }
 td, th{
-   
+
     text-align:center;
 }
 input,textArea,button{
@@ -18,6 +18,17 @@ input,textArea,button{
 }
 
 #enviar{width: 100%
+}
+
+/*Iframes*/
+
+iframe{
+    width: 98%;
+    height: 340px;
+}
+
+video{
+    
 }
 
 /*Estilo de los articulos en web*/
@@ -34,9 +45,11 @@ input,textArea,button{
 }
 
 #clickGenerar:hover{
-    font-size:14.5px;
+    font-size:14px;
 }
 
+#artFullColor{opacity:0;}
 
+artExtremadura{opacity:0;}
 
 
