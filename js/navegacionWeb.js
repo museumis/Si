@@ -11,9 +11,12 @@ function ejecutarArticulos(articulo) {
 
     document.querySelector(articulo).style.opacity = 1;
     document.querySelector(articulo).style.zIndex = 1;
-
-}
+    document.querySelector(articulo).style.transition = "all 0.3s";    
+    if(articulo==="#imgIdiomas"){
+    document.querySelector(articulo).style.transition = "all 0.8s";
+    document.querySelector(articulo).style.transform= "rotateY(360deg)";}
 ;
+}
 
 //funcion para crear articulos
 function articulo() {
