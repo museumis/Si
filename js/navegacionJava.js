@@ -35,18 +35,21 @@ function ejecutarArticulos(articulo) {
     document.querySelector('#artTraductor').style.zIndex = 0;
     
     document.querySelector('#artCalculadora').style.opacity = 0;
-                document.querySelector('#artCalculadora').style.zIndex = 0;
+    document.querySelector('#artCalculadora').style.zIndex = 0;
                 
                 
-             document.querySelector('#artFormularioJava').style.opacity = 0;
-                document.querySelector('#artFormularioJava').style.zIndex = 0;
+    document.querySelector('#artFormularioJava').style.opacity = 0;
+    document.querySelector('#artFormularioJava').style.zIndex = 0;
                 
-                document.querySelector('#artAgenda').style.opacity = 0;
-                document.querySelector('#artAgenda').style.zIndex = 0;
+    document.querySelector('#artAgenda').style.opacity = 0;
+    document.querySelector('#artAgenda').style.zIndex = 0;
 
     document.querySelector(articulo).style.opacity = 1;
     document.querySelector(articulo).style.zIndex = 1;
-
+    document.querySelector(articulo).style.transition = "all 0.3s";    
+    if(articulo==="#duke"){
+    document.querySelector(articulo).style.transition = "all 0.8s";
+    document.querySelector(articulo).style.transform= "rotateY(360deg)";}
 }
 ;
 
