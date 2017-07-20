@@ -8,14 +8,21 @@ function ejecutarArticulos(articulo) {
     document.querySelector('#artCrearArticulo').style.opacity = 0;
     document.querySelector('#artCrearArticulo').style.zIndex = 0;
 
+    document.querySelector('#artFullColor').style.opacity = 0;
+    document.querySelector('#artFullColor').style.zIndex = 0;
+
+    document.querySelector('#artExtremadura').style.opacity = 0;
+    document.querySelector('#artExtremadura').style.zIndex = 0;
+
 
     document.querySelector(articulo).style.opacity = 1;
     document.querySelector(articulo).style.zIndex = 1;
-    document.querySelector(articulo).style.transition = "all 0.3s";    
-    if(articulo==="#imgIdiomas"){
-    document.querySelector(articulo).style.transition = "all 0.8s";
-    document.querySelector(articulo).style.transform= "rotateY(360deg)";}
-;
+    document.querySelector(articulo).style.transition = "all 0.3s";
+    if (articulo === "#imgIdiomas") {
+        document.querySelector(articulo).style.transition = "all 0.8s";
+        document.querySelector(articulo).style.transform = "rotateY(360deg)";
+    }
+    ;
 }
 
 //funcion para crear articulos
@@ -56,6 +63,13 @@ window.onload = function () {
     document.querySelector('#clickGenerar').onclick = function () {
         ejecutarArticulos('#artCrearArticulo');
     };
+    document.querySelector('#clickFullColor').onclick = function () {
+        ejecutarArticulos('#artFullColor');
+    };
+    document.querySelector('#clickExtremadura').onclick = function () {
+        ejecutarArticulos('#artExtremadura');
+    };
+
 
 };
 

@@ -22,7 +22,9 @@ Blanco:#FFFFFF*/
 /*--------------------------*/ 
 
 html{
-    overflow-y:scroll;      
+    overflow-y:scroll;   
+    background-image:url(../imagenes/fondoCrema.jpg);
+    background-size:100%;
 }
 body{
     margin:0px;
