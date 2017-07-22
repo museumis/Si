@@ -23,8 +23,7 @@ Blanco:#FFFFFF*/
 
 html{
     overflow-y:scroll;   
-    background-image:url(../imagenes/fondoCrema.jpg);
-    background-size:100%;
+    background-color: #f0f0f0;
 }
 body{
     margin:0px;
@@ -317,7 +316,6 @@ var,time{
 }
 
 /*Responsive*/
-
 
 @media screen and (max-width:900px){
     #contacto{

@@ -19,6 +19,10 @@ document.querySelector('#artCalculadora').style.opacity = 0;
  
  document.querySelector('#artCurriculo').style.opacity = 0;
  document.querySelector('#artCurriculo').style.zIndex = 0;
+ 
+ 
+ document.querySelector('#artKarioko').style.opacity = 0;
+ document.querySelector('#artKarioko').style.zIndex = 0;
 
     document.querySelector(articulo).style.opacity = 1;
     document.querySelector(articulo).style.zIndex = 1;
@@ -77,6 +81,7 @@ window.onload = function () {
 
  document.querySelector('#clickCalculadora').onclick = function () {ejecutarArticulos('#artCalculadora');};
   document.querySelector('#clickCurriculo').onclick = function () {ejecutarArticulos('#artCurriculo');};
+   document.querySelector('#clickKarioko').onclick = function () {ejecutarArticulos('#artKarioko');};
 };
 
 
